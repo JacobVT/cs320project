@@ -2,8 +2,6 @@
 ### Created By: Jacob van Tol, Noah Scarbrough, and Jared Kangas
 
 ## Description
-Minecraft Item Crafter is a web app that allows users to experiment with Minecraft crafting recipes. Recipes are a pattern of items in a 3x3 table that result in a new item. The user will be able to populate a 3x3 table, and the software will scan for valid recipes. If a valid recipe is detected, it will display the resulting item to the user.  
+Minecraft Item Crafter is a web app that gives users the ability to experiment with Minecraft crafting recipes. Recipes are patterns of items, typically arranged in a 3x3 grid, that combine to create a new item. The user can add items to a 3x3 table and the software will scan for valid recipes. If a valid recipe is detected, the resulting item is displayed to the user. To make crafting easier, the app also contains a searchable list of all items.
 
-This app is intended to allow users to experiment with crafting without wasting in-game materials. 
-
-## Current Phase -- *Design*
+## Current Phase: *Design*
