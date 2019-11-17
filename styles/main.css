@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "Minecraft";
+	src: url("../fonts/1_Minecraft-Regular.otf") format("opentype");
+}
+
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.minecraft {
+	font-family: "Minecraft";
+	color: white;
+}
+
+.icon {
+	padding-right: 6px;
+}
+
+.crafting_table {
+	border: 4px solid rgb(104, 104, 104);
+	border-radius: 16px;
+	padding: 16px;
+	background-color: #c6c6c6;
+	margin-bottom: 16px;
+	width: 80%;
+	height: 80%;
+}
+
+.item-list-container {
+	background-color: #c6c6c6;
+}
+
+.card-body {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.card-header {
+	background-color: rgb(104, 104, 104);
+	padding: 16px;
+}
+
+a {
+	color: white;
+}
+
+a:hover, a:focus {
+	color: black;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color:rgb(143, 96, 51)
+}
