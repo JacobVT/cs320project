@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Minecraft Item Crafter</title>
+
+	<script src="https://kit.fontawesome.com/6c9e3ff299.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('../images/background.jpg')">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="../styles/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+			<ul class="nav nav-pills pull-right minecraft">
+				<li role="presentation"><a href="index.html"><i class="fas fa-home icon"></i>Home</a></li>
+				<li role="presentation" class="active"><a href="crafting_table.html"><i class="fas fa-tools icon"></i>Crafting Table</a></li>
+				<li role="presentation"><a href="https://minecraft.gamepedia.com"><i class="fas fa-book icon"></i> Minecraft Gamepedia</a></li>
+			</ul>
+			</nav>
+			<h3 class="minecraft">Minecraft Item Crafter</h3>
+		</div>
+
+		<div class="row">
+			<div class="flexBox" style="display: flex; flex-flow: row wrap; justify-content: center;">
+				<div class="card bg-dark text-white crafting_table">
+					<img src="../images/crafting_table.jpg" class="card-img alt="Crafting Table" width="100%" height="100%">
+					<div class="card-img-overlay">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="card item-list-container">
+				<div class="card-header minecraft h2 text-nowrap">
+					<div class="flexBox" style="display: flex; flex-flow: row; justify-content: space-between; align-items: center;">
+						<span> Item List </span>
+						<input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
+					</div>
+				</div>
+				<div class="card-body">
+						<table class="table">
+								<thead>
+								  <tr>
+									<th scope="col"></th>
+									<th scope="col">Name</th>
+									<th scope="col">MC ID</th>
+									<th scope="col">Actions</th>
+								  </tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Apple.png" width="24px" height="24px">
+										</th>
+										<td>Apple</td>
+										<td>260</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Arrow.png" width="24px" height="24px">
+										</th>
+										<td>Arrow</td>
+										<td>262</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Baked_Potato.png" width="24px" height="24px">
+										</th>
+										<td>Baked Potato</td>
+										<td>393</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Beetroot.png" width="24px" height="24px">
+										</th>
+										<td>Beetroot</td>
+										<td>434</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Blue_Dye.png" width="24px" height="24px">
+										</th>
+										<td>Blue Dye</td>
+										<td>351</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+									<tr>
+										<th scope="row">
+											<img src="../images/items/Bone.png" width="24px" height="24px">
+										</th>
+										<td>Bone</td>
+										<td>352</td>
+										<td><button type="button" class="btn btn-success btn-sm"><i class="fas fa-plus"></i></button>
+										<button type="button" class="btn btn-sm">View Info</button></td>
+									</tr>
+								</tbody>
+						</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
