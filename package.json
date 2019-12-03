@@ -1,9 +1,16 @@
 {
-  "name": "itemcrafter",
+  "name": "minecraftitemcrafter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Minecraft Item Crafter is a web app that gives users the ability to experiment with Minecraft crafting recipes. Recipes are patterns of items, typically arranged in a 3x3 grid, that combine to create a new item. The user can add items to a 3x3 table and the software will scan for valid recipes. If a valid recipe is detected, the resulting item is displayed to the user. To make crafting easier, the app also contains a searchable list of all items.",
   "main": "itemcrafter.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
   "scripts": {
+    "lint": "eslint --ext .js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/JacobVT/cs320project/issues"
   },
-  "homepage": "https://github.com/JacobVT/cs320project#readme",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.10.0",
-    "@typescript-eslint/parser": "^2.10.0",
-    "eslint": "^6.7.2"
-  }
+  "homepage": "https://github.com/JacobVT/cs320project#readme"
 }
