@@ -1,0 +1,24 @@
+{
+  "name": "itemcrafter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "itemcrafter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacobVT/cs320project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacobVT/cs320project/issues"
+  },
+  "homepage": "https://github.com/JacobVT/cs320project#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "eslint": "^6.7.2"
+  }
+}
