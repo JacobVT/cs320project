@@ -13,7 +13,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="../styles/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="../js/dragdrop.js"></script>
+  <script src="../js/events.js"></script>
+
 
 	<div class="container">
 		<div class="clearfix">
@@ -89,62 +90,20 @@
 						<input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
 					</div>
 					<div class="card-body">
-							<table class="table">
+							<table class="table" id="itemTable">
 									<thead>
 									<tr>
-										<th scope="col">Item</th>
+										<th scope="col" width="7%">Item</th>
 										<th scope="col">Name</th>
 										<th scope="col">MC ID</th>
 									</tr>
 									</thead>
-									<tbody>
-										<tr>
-											<th scope="row" style="width: 52px; height: 52px; padding-top: 9px; padding-bottom: 9px">
-												<img src="../images/items/Apple.png" width="100%" height="100%" id="dragTest1"  value="262" draggable="true" ondragstart="drag(event)">
-											</th>
-											<td>Apple</td>
-											<td>260</td>
-										</tr>
-										<tr>
-											<th scope="row">
-												<img src="../images/items/Arrow.png" width="24px" height="24px">
-											</th>
-											<td>Arrow</td>
-											<td>262</td>
-										</tr>
-										<tr>
-											<th scope="row">
-												<img src="../images/items/Baked_Potato.png" width="24px" height="24px">
-											</th>
-											<td>Baked Potato</td>
-											<td>393</td>
-										</tr>
-										<tr>
-											<th scope="row">
-												<img src="../images/items/Beetroot.png" width="24px" height="24px">
-											</th>
-											<td>Beetroot</td>
-											<td>434</td>
-										</tr>
-										<tr>
-											<th scope="row">
-												<img src="../images/items/Blue_Dye.png" width="24px" height="24px">
-											</th>
-											<td>Blue Dye</td>
-											<td>351</td>
-										</tr>
-										<tr>
-											<th scope="row">
-												<img src="../images/items/Bone.png" width="24px" height="24px">
-											</th>
-											<td>Bone</td>
-											<td>352</td>
-										</tr>
-									</tbody>
+                <tbody id="itemTableBody" class="item-list"></tbody>
 							</table>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+  <script src="../js/ItemList.js"></script>
 </body>

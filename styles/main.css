@@ -25,6 +25,13 @@ body {
 	padding: 0.5rem
 }
 
+
+.item-list {
+  display: block;
+  height: 30vh;
+  overflow: auto;
+}
+
 .crafting_table {
 	border: 4px solid rgb(104, 104, 104);
 	border-radius: 16px;
@@ -45,8 +52,8 @@ body {
 }
 
 .result {
-	width: 50%; 
-	height:100%; 
+	width: 50%;
+	height:100%;
 	margin-left: 70%;
 }
 
@@ -79,4 +86,18 @@ a:hover, a:focus {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
 	background-color:rgb(143, 96, 51)
+}
+
+thead, tbody, tr {
+  display: table;
+  width: 100%
+}
+
+tr, td {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+thead {
+  width: calc( 100% - 1em )
 }
