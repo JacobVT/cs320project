@@ -1,10 +1,4 @@
-class Item {
-  constructor(id, imgpath, name) {
-    this.id = id;
-    this.imgpath = imgpath;
-    this.name = name;
-  }
-}
+/* global Item */
 
 class ItemList {
   constructor() {
@@ -18,9 +12,11 @@ class ItemList {
   processItems(jsonfile) {
     const request = new XMLHttpRequest();
     request.open('GET', jsonfile, false);
-    request.send(null)
+    request.send(null);
+
     const itemsJSON = JSON.parse(request.responseText);
-    const itemKeys = Object.keys(itemsJSON.items)
+    const itemKeys = Object.keys(itemsJSON.items);
+
     itemKeys.forEach((key) => {
       const { imgpath } = itemsJSON.items[key];
       const { display } = itemsJSON.items[key];
