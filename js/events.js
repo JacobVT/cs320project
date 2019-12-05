@@ -8,9 +8,11 @@ function allowDrop(ev) {
 function drag(ev) {
   dragItem = $(ev.target);
   const attr = dragItem.attr('row');
-  if (typeof attr !== typeof undefined && attr !== false) {
+
+  if (attr !== undefined) {
     const row = dragItem.attr('row');
     const col = dragItem.attr('col');
+
     dragItem.attr('draggable', 'false');
     itemList[row][col] = -1;
   }
@@ -19,11 +21,13 @@ function drag(ev) {
 function drop(ev) {
   $('.tile').removeClass('hover');
   ev.preventDefault();
+
   $(ev.target).attr('value', dragItem.attr('value'));
   $(ev.target).attr('draggable', 'true');
   $(ev.target).attr('ondragstart', 'drag(event)');
   $(ev.target).attr('src', dragItem.attr('src'));
-  if (typeof dragItem.attr('row') !== typeof undefined && dragItem.attr('row') !== false) {
+
+  if (dragItem.attr('row') !== undefined) {
     dragItem.removeAttr('src');
   }
 }
