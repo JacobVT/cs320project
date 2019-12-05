@@ -1,10 +1,4 @@
-class Item {
-  constructor(id, imgpath, name) {
-    this.id = id;
-    this.imgpath = imgpath;
-    this.name = name;
-  }
-}
+/* global Item */
 
 class ItemList {
   constructor() {
@@ -12,6 +6,9 @@ class ItemList {
   }
 
   getItem(index) {
+    if (isNaN(index) || index < 0 || index >= this.items.length) {
+      return null;
+    }
     return this.items[index];
   }
 
@@ -34,7 +31,7 @@ class ItemList {
       tableBody.append(`
         <tr>
           <th scope="row" width="7%">
-            <img src="${this.items[i].imgpath}" 
+            <img src="../${this.items[i].imgpath}" 
                   alt=""
                   width="32px" 
                   height="32px"
@@ -53,6 +50,6 @@ class ItemList {
 }
 
 const list = new ItemList();
-list.processItems('../mc_r1.json')
+list.processItems('../mc_r2.json')
 const itemTable = $('#itemTableBody');
 list.generateTable(itemTable);
