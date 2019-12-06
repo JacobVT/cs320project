@@ -9,6 +9,7 @@ class ItemList {
     if (Number.isNaN(index) || index < 0 || index >= this.items.length) {
       return null;
     }
+
     return this.items[index];
   }
 
@@ -52,6 +53,6 @@ class ItemList {
 }
 
 const list = new ItemList();
-list.processItems('../mc_r2.json')
+list.processItems('../mc_r2.json');
 const itemTable = $('#itemTableBody');
 list.generateTable(itemTable);
