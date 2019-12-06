@@ -1,1 +1,4370 @@
-{"recipes": {"dropper": {"ingredients": ["cobblestone", "cobblestone", "cobblestone", "cobblestone", "_", "cobblestone", "cobblestone", "redstone", "cobblestone"], "pattern": 1}, "stone_pressure_plate": {"ingredients": ["stone", "stone", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "furnace_minecart": {"ingredients": ["furnace", "_", "_", "minecart", "_", "_", "_", "_", "_"], "pattern": 1}, "bucket": {"ingredients": ["iron_ingot", "_", "iron_ingot", "_", "iron_ingot", "_", "_", "_", "_"], "pattern": 1}, "lapis_block": {"ingredients": ["dye", "dye", "dye", "dye", "dye", "dye", "dye", "dye", "dye"], "pattern": 1}, "cobblestone_wall": {"ingredients": ["mossy_cobblestone", "mossy_cobblestone", "mossy_cobblestone", "mossy_cobblestone", "mossy_cobblestone", "mossy_cobblestone", "_", "_", "_"], "pattern": 1}, "cauldron": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "_", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot"], "pattern": 1}, "stone_shovel": {"ingredients": ["cobblestone", "_", "_", "stick", "_", "_", "stick", "_", "_"], "pattern": 1}, "glass_bottle": {"ingredients": ["glass", "_", "glass", "_", "glass", "_", "_", "_", "_"], "pattern": 1}, "gold_nugget": {"ingredients": ["gold_ingot", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "leather_chestplate": {"ingredients": ["leather", "_", "leather", "leather", "leather", "leather", "leather", "leather", "leather"], "pattern": 1}, "wooden_button": {"ingredients": ["planks", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "golden_carrot": {"ingredients": ["gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "carrot", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget"], "pattern": 1}, "golden_rail": {"ingredients": ["gold_ingot", "_", "gold_ingot", "gold_ingot", "stick", "gold_ingot", "gold_ingot", "redstone", "gold_ingot"], "pattern": 1}, "redstone_lamp": {"ingredients": ["_", "redstone", "_", "redstone", "glowstone", "redstone", "_", "redstone", "_"], "pattern": 1}, "clock": {"ingredients": ["_", "gold_ingot", "_", "gold_ingot", "redstone", "gold_ingot", "_", "gold_ingot", "_"], "pattern": 1}, "purpur_block": {"ingredients": ["chorus_fruit_popped", "chorus_fruit_popped", "_", "chorus_fruit_popped", "chorus_fruit_popped", "_", "_", "_", "_"], "pattern": 1}, "dye": {"ingredients": ["bone", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "observer": {"ingredients": ["cobblestone", "cobblestone", "cobblestone", "redstone", "redstone", "quartz", "cobblestone", "cobblestone", "cobblestone"], "pattern": 1}, "sandstone": {"ingredients": ["sand", "sand", "_", "sand", "sand", "_", "_", "_", "_"], "pattern": 1}, "light_weighted_pressure_plate": {"ingredients": ["gold_ingot", "gold_ingot", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "hopper_minecart": {"ingredients": ["hopper", "_", "_", "minecart", "_", "_", "_", "_", "_"], "pattern": 1}, "stone_slab": {"ingredients": ["quartz_block", "quartz_block", "quartz_block", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "end_crystal": {"ingredients": ["glass", "glass", "glass", "glass", "ender_eye", "glass", "glass", "ghast_tear", "glass"], "pattern": 1}, "diamond_sword": {"ingredients": ["diamond", "_", "_", "diamond", "_", "_", "stick", "_", "_"], "pattern": 1}, "dirt": {"ingredients": ["dirt", "gravel", "_", "gravel", "dirt", "_", "_", "_", "_"], "pattern": 1}, "stone": {"ingredients": ["stone", "quartz", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "stone_sword": {"ingredients": ["cobblestone", "_", "_", "cobblestone", "_", "_", "stick", "_", "_"], "pattern": 1}, "stonebrick": {"ingredients": ["stonebrick", "vine", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "redstone_block": {"ingredients": ["redstone", "redstone", "redstone", "redstone", "redstone", "redstone", "redstone", "redstone", "redstone"], "pattern": 1}, "comparator": {"ingredients": ["_", "redstone_torch", "_", "redstone_torch", "quartz", "redstone_torch", "stone", "stone", "stone"], "pattern": 1}, "minecart": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "_", "_", "_"], "pattern": 1}, "noteblock": {"ingredients": ["planks", "planks", "planks", "planks", "redstone", "planks", "planks", "planks", "planks"], "pattern": 1}, "diamond_chestplate": {"ingredients": ["diamond", "_", "diamond", "diamond", "diamond", "diamond", "diamond", "diamond", "diamond"], "pattern": 1}, "fishing_rod": {"ingredients": ["_", "_", "stick", "_", "stick", "string", "stick", "_", "string"], "pattern": 1}, "mushroom_stew": {"ingredients": ["brown_mushroom", "red_mushroom", "bowl", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "cookie": {"ingredients": ["wheat", "dye", "wheat", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "trapdoor": {"ingredients": ["planks", "planks", "planks", "planks", "planks", "planks", "_", "_", "_"], "pattern": 1}, "sticky_piston": {"ingredients": ["slime_ball", "_", "_", "piston", "_", "_", "_", "_", "_"], "pattern": 1}, "trapped_chest": {"ingredients": ["chest", "tripwire_hook", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "ender_chest": {"ingredients": ["obsidian", "obsidian", "obsidian", "obsidian", "ender_eye", "obsidian", "obsidian", "obsidian", "obsidian"], "pattern": 1}, "emerald": {"ingredients": ["emerald_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "purpur_slab": {"ingredients": ["purpur_block", "purpur_block", "purpur_block", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "leather_helmet": {"ingredients": ["leather", "leather", "leather", "leather", "_", "leather", "_", "_", "_"], "pattern": 1}, "iron_nugget": {"ingredients": ["iron_ingot", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "beetroot_soup": {"ingredients": ["beetroot", "beetroot", "beetroot", "beetroot", "beetroot", "beetroot", "_", "bowl", "_"], "pattern": 1}, "quartz_block": {"ingredients": ["quartz", "quartz", "_", "quartz", "quartz", "_", "_", "_", "_"], "pattern": 1}, "iron_chestplate": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot"], "pattern": 1}, "writable_book": {"ingredients": ["book", "dye", "feather", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "dispenser": {"ingredients": ["cobblestone", "cobblestone", "cobblestone", "cobblestone", "bow", "cobblestone", "cobblestone", "redstone", "cobblestone"], "pattern": 1}, "quartz_stairs": {"ingredients": ["quartz_block", "_", "_", "quartz_block", "quartz_block", "_", "quartz_block", "quartz_block", "quartz_block"], "pattern": 1}, "wooden_slab": {"ingredients": ["planks", "planks", "planks", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "pumpkin_seeds": {"ingredients": ["pumpkin", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "sandstone_stairs": {"ingredients": ["sandstone", "_", "_", "sandstone", "sandstone", "_", "sandstone", "sandstone", "sandstone"], "pattern": 1}, "clay": {"ingredients": ["clay_ball", "clay_ball", "_", "clay_ball", "clay_ball", "_", "_", "_", "_"], "pattern": 1}, "ender_eye": {"ingredients": ["ender_pearl", "blaze_powder", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "wooden_door": {"ingredients": ["planks", "planks", "_", "planks", "planks", "_", "planks", "planks", "_"], "pattern": 1}, "chest": {"ingredients": ["planks", "planks", "planks", "planks", "_", "planks", "planks", "planks", "planks"], "pattern": 1}, "iron_ingot": {"ingredients": ["iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget", "iron_nugget"], "pattern": 1}, "shears": {"ingredients": ["_", "iron_ingot", "_", "iron_ingot", "_", "_", "_", "_", "_"], "pattern": 1}, "melon_block": {"ingredients": ["melon", "melon", "melon", "melon", "melon", "melon", "melon", "melon", "melon"], "pattern": 1}, "tnt_minecart": {"ingredients": ["tnt", "_", "_", "minecart", "_", "_", "_", "_", "_"], "pattern": 1}, "bed": {"ingredients": ["wool", "wool", "wool", "planks", "planks", "planks", "_", "_", "_"], "pattern": 1}, "heavy_weighted_pressure_plate": {"ingredients": ["iron_ingot", "iron_ingot", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "blaze_powder": {"ingredients": ["blaze_rod", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "lit_pumpkin": {"ingredients": ["pumpkin", "_", "_", "torch", "_", "_", "_", "_", "_"], "pattern": 1}, "banner": {"ingredients": ["wool", "wool", "wool", "wool", "wool", "wool", "_", "stick", "_"], "pattern": 1}, "golden_boots": {"ingredients": ["gold_ingot", "_", "gold_ingot", "gold_ingot", "_", "gold_ingot", "_", "_", "_"], "pattern": 1}, "tnt": {"ingredients": ["gunpowder", "sand", "gunpowder", "sand", "gunpowder", "sand", "gunpowder", "sand", "gunpowder"], "pattern": 1}, "diamond_block": {"ingredients": ["diamond", "diamond", "diamond", "diamond", "diamond", "diamond", "diamond", "diamond", "diamond"], "pattern": 1}, "end_rod": {"ingredients": ["blaze_rod", "_", "_", "chorus_fruit_popped", "_", "_", "_", "_", "_"], "pattern": 1}, "purpur_pillar": {"ingredients": ["purpur_slab", "_", "_", "purpur_slab", "_", "_", "_", "_", "_"], "pattern": 1}, "golden_leggings": {"ingredients": ["gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "_", "gold_ingot", "gold_ingot", "_", "gold_ingot"], "pattern": 1}, "compass": {"ingredients": ["_", "iron_ingot", "_", "iron_ingot", "redstone", "iron_ingot", "_", "iron_ingot", "_"], "pattern": 1}, "wooden_sword": {"ingredients": ["planks", "_", "_", "planks", "_", "_", "stick", "_", "_"], "pattern": 1}, "nether_wart_block": {"ingredients": ["nether_wart", "nether_wart", "nether_wart", "nether_wart", "nether_wart", "nether_wart", "nether_wart", "nether_wart", "nether_wart"], "pattern": 1}, "book": {"ingredients": ["paper", "paper", "paper", "leather", "_", "_", "_", "_", "_"], "pattern": 0}, "iron_boots": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "_", "iron_ingot", "_", "_", "_"], "pattern": 1}, "sea_lantern": {"ingredients": ["prismarine_shard", "prismarine_crystals", "prismarine_shard", "prismarine_crystals", "prismarine_crystals", "prismarine_crystals", "prismarine_shard", "prismarine_crystals", "prismarine_shard"], "pattern": 1}, "iron_axe": {"ingredients": ["iron_ingot", "iron_ingot", "_", "iron_ingot", "stick", "_", "_", "stick", "_"], "pattern": 1}, "bookshelf": {"ingredients": ["planks", "planks", "planks", "book", "book", "book", "planks", "planks", "planks"], "pattern": 1}, "diamond_axe": {"ingredients": ["diamond", "diamond", "_", "diamond", "stick", "_", "_", "stick", "_"], "pattern": 1}, "brick_block": {"ingredients": ["brick", "brick", "_", "brick", "brick", "_", "_", "_", "_"], "pattern": 1}, "iron_bars": {"ingredients": ["iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "_", "_", "_"], "pattern": 1}, "shield": {"ingredients": ["planks", "iron_ingot", "planks", "planks", "planks", "planks", "_", "planks", "_"], "pattern": 1}, "diamond_hoe": {"ingredients": ["diamond", "diamond", "_", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "lever": {"ingredients": ["stick", "_", "_", "cobblestone", "_", "_", "_", "_", "_"], "pattern": 1}, "iron_hoe": {"ingredients": ["iron_ingot", "iron_ingot", "_", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "stick": {"ingredients": ["planks", "_", "_", "planks", "_", "_", "_", "_", "_"], "pattern": 1}, "arrow": {"ingredients": ["flint", "_", "_", "stick", "_", "_", "feather", "_", "_"], "pattern": 1}, "sugar": {"ingredients": ["reeds", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "wooden_hoe": {"ingredients": ["planks", "planks", "_", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "stone_stairs": {"ingredients": ["cobblestone", "_", "_", "cobblestone", "cobblestone", "_", "cobblestone", "cobblestone", "cobblestone"], "pattern": 1}, "paper": {"ingredients": ["reeds", "reeds", "reeds", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "prismarine": {"ingredients": ["prismarine_shard", "prismarine_shard", "_", "prismarine_shard", "prismarine_shard", "_", "_", "_", "_"], "pattern": 1}, "bowl": {"ingredients": ["planks", "_", "planks", "_", "planks", "_", "_", "_", "_"], "pattern": 1}, "stone_brick_stairs": {"ingredients": ["stonebrick", "_", "_", "stonebrick", "stonebrick", "_", "stonebrick", "stonebrick", "stonebrick"], "pattern": 1}, "speckled_melon": {"ingredients": ["gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget", "melon", "gold_nugget", "gold_nugget", "gold_nugget", "gold_nugget"], "pattern": 1}, "gold_block": {"ingredients": ["gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot"], "pattern": 1}, "wooden_axe": {"ingredients": ["planks", "planks", "_", "planks", "stick", "_", "_", "stick", "_"], "pattern": 1}, "wooden_shovel": {"ingredients": ["planks", "_", "_", "stick", "_", "_", "stick", "_", "_"], "pattern": 1}, "stone_hoe": {"ingredients": ["cobblestone", "cobblestone", "_", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "wooden_pickaxe": {"ingredients": ["planks", "planks", "planks", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "stone_button": {"ingredients": ["stone", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "diamond_shovel": {"ingredients": ["diamond", "_", "_", "stick", "_", "_", "stick", "_", "_"], "pattern": 1}, "stone_pickaxe": {"ingredients": ["cobblestone", "cobblestone", "cobblestone", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "golden_pickaxe": {"ingredients": ["gold_ingot", "gold_ingot", "gold_ingot", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "golden_helmet": {"ingredients": ["gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "_", "gold_ingot", "_", "_", "_"], "pattern": 1}, "end_bricks": {"ingredients": ["end_stone", "end_stone", "_", "end_stone", "end_stone", "_", "_", "_", "_"], "pattern": 1}, "nether_brick": {"ingredients": ["netherbrick", "netherbrick", "_", "netherbrick", "netherbrick", "_", "_", "_", "_"], "pattern": 1}, "slime": {"ingredients": ["slime_ball", "slime_ball", "slime_ball", "slime_ball", "slime_ball", "slime_ball", "slime_ball", "slime_ball", "slime_ball"], "pattern": 1}, "jukebox": {"ingredients": ["planks", "planks", "planks", "planks", "diamond", "planks", "planks", "planks", "planks"], "pattern": 1}, "lead": {"ingredients": ["string", "string", "_", "string", "slime_ball", "_", "_", "_", "string"], "pattern": 1}, "brick_stairs": {"ingredients": ["brick_block", "_", "_", "brick_block", "brick_block", "_", "brick_block", "brick_block", "brick_block"], "pattern": 1}, "diamond": {"ingredients": ["diamond_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "stone_axe": {"ingredients": ["cobblestone", "cobblestone", "_", "cobblestone", "stick", "_", "_", "stick", "_"], "pattern": 1}, "flint_and_steel": {"ingredients": ["iron_ingot", "flint", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "ladder": {"ingredients": ["stick", "_", "stick", "stick", "stick", "stick", "stick", "_", "stick"], "pattern": 1}, "mossy_cobblestone": {"ingredients": ["cobblestone", "vine", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "fence": {"ingredients": ["planks", "stick", "planks", "planks", "stick", "planks", "_", "_", "_"], "pattern": 1}, "painting": {"ingredients": ["stick", "stick", "stick", "stick", "wool", "stick", "stick", "stick", "stick"], "pattern": 1}, "oak_stairs": {"ingredients": ["planks", "_", "_", "planks", "planks", "_", "planks", "planks", "planks"], "pattern": 1}, "golden_sword": {"ingredients": ["gold_ingot", "_", "_", "gold_ingot", "_", "_", "stick", "_", "_"], "pattern": 1}, "pumpkin_pie": {"ingredients": ["pumpkin", "sugar", "egg", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "chest_minecart": {"ingredients": ["chest", "_", "_", "minecart", "_", "_", "_", "_", "_"], "pattern": 1}, "crafting_table": {"ingredients": ["planks", "planks", "_", "planks", "planks", "_", "_", "_", "_"], "pattern": 1}, "nether_brick_stairs": {"ingredients": ["nether_brick", "_", "_", "nether_brick", "nether_brick", "_", "nether_brick", "nether_brick", "nether_brick"], "pattern": 1}, "enchanting_table": {"ingredients": ["_", "book", "_", "diamond", "obsidian", "diamond", "obsidian", "obsidian", "obsidian"], "pattern": 1}, "golden_chestplate": {"ingredients": ["gold_ingot", "_", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot"], "pattern": 1}, "iron_sword": {"ingredients": ["iron_ingot", "_", "_", "iron_ingot", "_", "_", "stick", "_", "_"], "pattern": 1}, "flower_pot": {"ingredients": ["brick", "_", "brick", "_", "brick", "_", "_", "_", "_"], "pattern": 1}, "leather": {"ingredients": ["rabbit_hide", "rabbit_hide", "_", "rabbit_hide", "rabbit_hide", "_", "_", "_", "_"], "pattern": 1}, "iron_leggings": {"ingredients": ["iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "_", "iron_ingot", "iron_ingot", "_", "iron_ingot"], "pattern": 1}, "activator_rail": {"ingredients": ["iron_ingot", "stick", "iron_ingot", "iron_ingot", "redstone_torch", "iron_ingot", "iron_ingot", "stick", "iron_ingot"], "pattern": 1}, "diamond_pickaxe": {"ingredients": ["diamond", "diamond", "diamond", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "sign": {"ingredients": ["planks", "planks", "planks", "planks", "planks", "planks", "_", "stick", "_"], "pattern": 1}, "gold_ingot": {"ingredients": ["gold_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "melon_seeds": {"ingredients": ["melon", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "hay_block": {"ingredients": ["wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat"], "pattern": 1}, "snow": {"ingredients": ["snowball", "snowball", "_", "snowball", "snowball", "_", "_", "_", "_"], "pattern": 1}, "cake": {"ingredients": ["milk_bucket", "milk_bucket", "milk_bucket", "sugar", "egg", "sugar", "wheat", "wheat", "wheat"], "pattern": 1}, "fence_gate": {"ingredients": ["stick", "planks", "stick", "stick", "planks", "stick", "_", "_", "_"], "pattern": 1}, "iron_shovel": {"ingredients": ["iron_ingot", "_", "_", "stick", "_", "_", "stick", "_", "_"], "pattern": 1}, "fermented_spider_eye": {"ingredients": ["spider_eye", "brown_mushroom", "sugar", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "glass_pane": {"ingredients": ["glass", "glass", "glass", "glass", "glass", "glass", "_", "_", "_"], "pattern": 1}, "leather_leggings": {"ingredients": ["leather", "leather", "leather", "leather", "_", "leather", "leather", "_", "leather"], "pattern": 1}, "beacon": {"ingredients": ["glass", "glass", "glass", "glass", "nether_star", "glass", "obsidian", "obsidian", "obsidian"], "pattern": 1}, "magma": {"ingredients": ["magma_cream", "magma_cream", "_", "magma_cream", "magma_cream", "_", "_", "_", "_"], "pattern": 1}, "brewing_stand": {"ingredients": ["_", "blaze_rod", "_", "cobblestone", "cobblestone", "cobblestone", "_", "_", "_"], "pattern": 1}, "furnace": {"ingredients": ["cobblestone", "cobblestone", "cobblestone", "cobblestone", "_", "cobblestone", "cobblestone", "cobblestone", "cobblestone"], "pattern": 1}, "bread": {"ingredients": ["wheat", "wheat", "wheat", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "emerald_block": {"ingredients": ["emerald", "emerald", "emerald", "emerald", "emerald", "emerald", "emerald", "emerald", "emerald"], "pattern": 1}, "coal_block": {"ingredients": ["coal", "coal", "coal", "coal", "coal", "coal", "coal", "coal", "coal"], "pattern": 1}, "hopper": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "chest", "iron_ingot", "_", "iron_ingot", "_"], "pattern": 1}, "iron_helmet": {"ingredients": ["iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "_", "iron_ingot", "_", "_", "_"], "pattern": 1}, "purpur_stairs": {"ingredients": ["purpur_block", "_", "_", "purpur_block", "purpur_block", "_", "purpur_block", "purpur_block", "purpur_block"], "pattern": 1}, "bow": {"ingredients": ["_", "stick", "string", "stick", "_", "string", "_", "stick", "string"], "pattern": 1}, "redstone": {"ingredients": ["redstone_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "carrot_on_a_stick": {"ingredients": ["fishing_rod", "_", "_", "_", "carrot", "_", "_", "_", "_"], "pattern": 1}, "iron_pickaxe": {"ingredients": ["iron_ingot", "iron_ingot", "iron_ingot", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "spectral_arrow": {"ingredients": ["_", "glowstone_dust", "_", "glowstone_dust", "arrow", "glowstone_dust", "_", "glowstone_dust", "_"], "pattern": 1}, "torch": {"ingredients": ["coal", "_", "_", "stick", "_", "_", "_", "_", "_"], "pattern": 1}, "detector_rail": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "stone_pressure_plate", "iron_ingot", "iron_ingot", "redstone", "iron_ingot"], "pattern": 1}, "golden_apple": {"ingredients": ["gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot", "apple", "gold_ingot", "gold_ingot", "gold_ingot", "gold_ingot"], "pattern": 1}, "iron_trapdoor": {"ingredients": ["iron_ingot", "iron_ingot", "_", "iron_ingot", "iron_ingot", "_", "_", "_", "_"], "pattern": 1}, "daylight_detector": {"ingredients": ["glass", "glass", "glass", "quartz", "quartz", "quartz", "wooden_slab", "wooden_slab", "wooden_slab"], "pattern": 1}, "rail": {"ingredients": ["iron_ingot", "_", "iron_ingot", "iron_ingot", "stick", "iron_ingot", "iron_ingot", "_", "iron_ingot"], "pattern": 1}, "snow_layer": {"ingredients": ["snow", "snow", "snow", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "planks": {"ingredients": ["log", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "diamond_boots": {"ingredients": ["diamond", "_", "diamond", "diamond", "_", "diamond", "_", "_", "_"], "pattern": 1}, "tripwire_hook": {"ingredients": ["iron_ingot", "_", "_", "stick", "_", "_", "planks", "_", "_"], "pattern": 1}, "leather_boots": {"ingredients": ["leather", "_", "leather", "leather", "_", "leather", "_", "_", "_"], "pattern": 1}, "redstone_torch": {"ingredients": ["redstone", "_", "_", "stick", "_", "_", "_", "_", "_"], "pattern": 1}, "glowstone": {"ingredients": ["glowstone_dust", "glowstone_dust", "_", "glowstone_dust", "glowstone_dust", "_", "_", "_", "_"], "pattern": 1}, "coal": {"ingredients": ["coal_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "anvil": {"ingredients": ["iron_block", "iron_block", "iron_block", "_", "iron_ingot", "_", "iron_ingot", "iron_ingot", "iron_ingot"], "pattern": 1}, "map": {"ingredients": ["paper", "paper", "paper", "paper", "compass", "paper", "paper", "paper", "paper"], "pattern": 1}, "item_frame": {"ingredients": ["stick", "stick", "stick", "stick", "leather", "stick", "stick", "stick", "stick"], "pattern": 1}, "iron_block": {"ingredients": ["iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot", "iron_ingot"], "pattern": 1}, "iron_door": {"ingredients": ["iron_ingot", "iron_ingot", "_", "iron_ingot", "iron_ingot", "_", "iron_ingot", "iron_ingot", "_"], "pattern": 1}, "magma_cream": {"ingredients": ["blaze_powder", "slime_ball", "_", "_", "_", "_", "_", "_", "_"], "pattern": 0}, "armor_stand": {"ingredients": ["stick", "stick", "stick", "_", "stick", "_", "stick", "_", "stick"], "pattern": 1}, "diamond_leggings": {"ingredients": ["diamond", "diamond", "diamond", "diamond", "_", "diamond", "diamond", "_", "diamond"], "pattern": 1}, "piston": {"ingredients": ["planks", "planks", "planks", "cobblestone", "iron_ingot", "cobblestone", "cobblestone", "redstone", "cobblestone"], "pattern": 1}, "wool": {"ingredients": ["string", "string", "_", "string", "string", "_", "_", "_", "_"], "pattern": 1}, "golden_hoe": {"ingredients": ["gold_ingot", "gold_ingot", "_", "_", "stick", "_", "_", "stick", "_"], "pattern": 1}, "diamond_helmet": {"ingredients": ["diamond", "diamond", "diamond", "diamond", "_", "diamond", "_", "_", "_"], "pattern": 1}, "boat": {"ingredients": ["planks", "_", "planks", "planks", "planks", "planks", "_", "_", "_"], "pattern": 1}, "golden_shovel": {"ingredients": ["gold_ingot", "_", "_", "stick", "_", "_", "stick", "_", "_"], "pattern": 1}, "nether_brick_fence": {"ingredients": ["nether_brick", "nether_brick", "nether_brick", "nether_brick", "nether_brick", "nether_brick", "_", "_", "_"], "pattern": 1}, "repeater": {"ingredients": ["redstone_torch", "redstone", "redstone_torch", "stone", "stone", "stone", "_", "_", "_"], "pattern": 1}, "wheat": {"ingredients": ["hay_block", "_", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "bone_block": {"ingredients": ["dye", "dye", "dye", "dye", "dye", "dye", "dye", "dye", "dye"], "pattern": 1}, "wooden_pressure_plate": {"ingredients": ["planks", "planks", "_", "_", "_", "_", "_", "_", "_"], "pattern": 1}, "golden_axe": {"ingredients": ["gold_ingot", "gold_ingot", "_", "gold_ingot", "stick", "_", "_", "stick", "_"], "pattern": 1}}, "items": {"golden_pickaxe": {"display": "Golden Pickaxe", "imgpath": "textures/items/barrier.png"}, "iron_helmet": {"display": "Iron Helmet", "imgpath": "textures/items/iron_helmet.png"}, "hopper_minecart": {"display": "Hopper Minecart", "imgpath": "textures/items/barrier.png"}, "brick": {"display": "Brick", "imgpath": "textures/blocks/brick.png"}, "wool": {"display": "Wool", "imgpath": "textures/items/barrier.png"}, "stone_pressure_plate": {"display": "Stone Pressure Plate", "imgpath": "textures/items/barrier.png"}, "quartz_stairs": {"display": "Quartz Stairs", "imgpath": "textures/items/barrier.png"}, "painting": {"display": "Painting", "imgpath": "textures/items/painting.png"}, "mossy_cobblestone": {"display": "Mossy Cobblestone", "imgpath": "textures/items/barrier.png"}, "golden_chestplate": {"display": "Golden Chestplate", "imgpath": "textures/items/barrier.png"}, "beetroot_soup": {"display": "Beetroot Soup", "imgpath": "textures/items/beetroot_soup.png"}, "iron_bars": {"display": "Iron Bars", "imgpath": "textures/blocks/iron_bars.png"}, "nether_brick": {"display": "Nether Brick", "imgpath": "textures/blocks/nether_brick.png"}, "wooden_hoe": {"display": "Wooden Hoe", "imgpath": "textures/items/barrier.png"}, "cobblestone_wall": {"display": "Cobblestone Wall", "imgpath": "textures/items/barrier.png"}, "wooden_shovel": {"display": "Wooden Shovel", "imgpath": "textures/items/barrier.png"}, "map": {"display": "Map", "imgpath": "textures/items/barrier.png"}, "nether_brick_stairs": {"display": "Nether Brick Stairs", "imgpath": "textures/items/barrier.png"}, "cookie": {"display": "Cookie", "imgpath": "textures/items/cookie.png"}, "glowstone": {"display": "Glowstone", "imgpath": "textures/blocks/glowstone.png"}, "golden_leggings": {"display": "Golden Leggings", "imgpath": "textures/items/barrier.png"}, "iron_leggings": {"display": "Iron Leggings", "imgpath": "textures/items/iron_leggings.png"}, "carrot_on_a_stick": {"display": "Carrot On A Stick", "imgpath": "textures/items/carrot_on_a_stick.png"}, "wooden_pickaxe": {"display": "Wooden Pickaxe", "imgpath": "textures/items/barrier.png"}, "tripwire_hook": {"display": "Tripwire Hook", "imgpath": "textures/items/barrier.png"}, "snow": {"display": "Snow", "imgpath": "textures/blocks/snow.png"}, "repeater": {"display": "Repeater", "imgpath": "textures/items/repeater.png"}, "iron_hoe": {"display": "Iron Hoe", "imgpath": "textures/items/iron_hoe.png"}, "nether_wart_block": {"display": "Nether Wart Block", "imgpath": "textures/blocks/nether_wart_block.png"}, "heavy_weighted_pressure_plate": {"display": "Heavy Weighted Pressure Plate", "imgpath": "textures/items/barrier.png"}, "glass": {"display": "Glass", "imgpath": "textures/blocks/glass.png"}, "cake": {"display": "Cake", "imgpath": "textures/items/cake.png"}, "iron_shovel": {"display": "Iron Shovel", "imgpath": "textures/items/iron_shovel.png"}, "book": {"display": "Book", "imgpath": "textures/items/barrier.png"}, "lead": {"display": "Lead", "imgpath": "textures/items/lead.png"}, "golden_rail": {"display": "Golden Rail", "imgpath": "textures/items/barrier.png"}, "apple": {"display": "Apple", "imgpath": "textures/items/apple.png"}, "reeds": {"display": "Reeds", "imgpath": "textures/blocks/reeds.png"}, "iron_trapdoor": {"display": "Iron Trapdoor", "imgpath": "textures/blocks/iron_trapdoor.png"}, "diamond": {"display": "Diamond", "imgpath": "textures/items/diamond.png"}, "log": {"display": "Log", "imgpath": "textures/items/barrier.png"}, "end_bricks": {"display": "End Bricks", "imgpath": "textures/blocks/end_bricks.png"}, "gold_nugget": {"display": "Gold Nugget", "imgpath": "textures/items/gold_nugget.png"}, "leather_leggings": {"display": "Leather Leggings", "imgpath": "textures/items/leather_leggings.png"}, "item_frame": {"display": "Item Frame", "imgpath": "textures/items/item_frame.png"}, "milk_bucket": {"display": "Milk Bucket", "imgpath": "textures/items/barrier.png"}, "diamond_block": {"display": "Diamond Block", "imgpath": "textures/blocks/diamond_block.png"}, "slime": {"display": "Slime", "imgpath": "textures/blocks/slime.png"}, "armor_stand": {"display": "Armor Stand", "imgpath": "textures/items/barrier.png"}, "cauldron": {"display": "Cauldron", "imgpath": "textures/items/cauldron.png"}, "ender_eye": {"display": "Ender Eye", "imgpath": "textures/items/ender_eye.png"}, "flint_and_steel": {"display": "Flint And Steel", "imgpath": "textures/items/flint_and_steel.png"}, "noteblock": {"display": "Noteblock", "imgpath": "textures/blocks/noteblock.png"}, "golden_hoe": {"display": "Golden Hoe", "imgpath": "textures/items/barrier.png"}, "nether_star": {"display": "Nether Star", "imgpath": "textures/items/nether_star.png"}, "fence": {"display": "Fence", "imgpath": "textures/items/barrier.png"}, "obsidian": {"display": "Obsidian", "imgpath": "textures/blocks/obsidian.png"}, "gold_ingot": {"display": "Gold Ingot", "imgpath": "textures/items/gold_ingot.png"}, "stone_axe": {"display": "Stone Axe", "imgpath": "textures/items/stone_axe.png"}, "lapis_block": {"display": "Lapis Block", "imgpath": "textures/blocks/lapis_block.png"}, "stick": {"display": "Stick", "imgpath": "textures/items/stick.png"}, "coal": {"display": "Coal", "imgpath": "textures/items/coal.png"}, "dirt": {"display": "Dirt", "imgpath": "textures/blocks/dirt.png"}, "end_stone": {"display": "End Stone", "imgpath": "textures/blocks/end_stone.png"}, "diamond_boots": {"display": "Diamond Boots", "imgpath": "textures/items/diamond_boots.png"}, "glowstone_dust": {"display": "Glowstone Dust", "imgpath": "textures/items/glowstone_dust.png"}, "golden_apple": {"display": "Golden Apple", "imgpath": "textures/items/barrier.png"}, "ghast_tear": {"display": "Ghast Tear", "imgpath": "textures/items/ghast_tear.png"}, "emerald": {"display": "Emerald", "imgpath": "textures/items/emerald.png"}, "stone_pickaxe": {"display": "Stone Pickaxe", "imgpath": "textures/items/stone_pickaxe.png"}, "stone_shovel": {"display": "Stone Shovel", "imgpath": "textures/items/stone_shovel.png"}, "rabbit_hide": {"display": "Rabbit Hide", "imgpath": "textures/items/rabbit_hide.png"}, "spectral_arrow": {"display": "Spectral Arrow", "imgpath": "textures/items/spectral_arrow.png"}, "wheat": {"display": "Wheat", "imgpath": "textures/items/wheat.png"}, "bone": {"display": "Bone", "imgpath": "textures/items/bone.png"}, "fishing_rod": {"display": "Fishing Rod", "imgpath": "textures/items/barrier.png"}, "pumpkin": {"display": "Pumpkin", "imgpath": "textures/items/barrier.png"}, "iron_block": {"display": "Iron Block", "imgpath": "textures/blocks/iron_block.png"}, "bow": {"display": "Bow", "imgpath": "textures/items/barrier.png"}, "dropper": {"display": "Dropper", "imgpath": "textures/items/barrier.png"}, "bucket": {"display": "Bucket", "imgpath": "textures/items/barrier.png"}, "sandstone": {"display": "Sandstone", "imgpath": "textures/items/barrier.png"}, "stone_hoe": {"display": "Stone Hoe", "imgpath": "textures/items/stone_hoe.png"}, "rail": {"display": "Rail", "imgpath": "textures/items/barrier.png"}, "iron_nugget": {"display": "Iron Nugget", "imgpath": "textures/items/iron_nugget.png"}, "chest": {"display": "Chest", "imgpath": "textures/items/barrier.png"}, "leather_chestplate": {"display": "Leather Chestplate", "imgpath": "textures/items/leather_chestplate.png"}, "wooden_button": {"display": "Wooden Button", "imgpath": "textures/items/barrier.png"}, "feather": {"display": "Feather", "imgpath": "textures/items/feather.png"}, "clay_ball": {"display": "Clay Ball", "imgpath": "textures/items/clay_ball.png"}, "iron_pickaxe": {"display": "Iron Pickaxe", "imgpath": "textures/items/iron_pickaxe.png"}, "purpur_block": {"display": "Purpur Block", "imgpath": "textures/blocks/purpur_block.png"}, "ender_chest": {"display": "Ender Chest", "imgpath": "textures/items/barrier.png"}, "sandstone_stairs": {"display": "Sandstone Stairs", "imgpath": "textures/items/barrier.png"}, "bowl": {"display": "Bowl", "imgpath": "textures/items/bowl.png"}, "tnt_minecart": {"display": "Tnt Minecart", "imgpath": "textures/items/barrier.png"}, "prismarine": {"display": "Prismarine", "imgpath": "textures/items/barrier.png"}, "leather_boots": {"display": "Leather Boots", "imgpath": "textures/items/leather_boots.png"}, "end_crystal": {"display": "End Crystal", "imgpath": "textures/items/end_crystal.png"}, "ender_pearl": {"display": "Ender Pearl", "imgpath": "textures/items/ender_pearl.png"}, "wooden_door": {"display": "Wooden Door", "imgpath": "textures/items/barrier.png"}, "emerald_block": {"display": "Emerald Block", "imgpath": "textures/blocks/emerald_block.png"}, "chest_minecart": {"display": "Chest Minecart", "imgpath": "textures/items/barrier.png"}, "bread": {"display": "Bread", "imgpath": "textures/items/bread.png"}, "planks": {"display": "Planks", "imgpath": "textures/items/barrier.png"}, "shears": {"display": "Shears", "imgpath": "textures/items/shears.png"}, "iron_boots": {"display": "Iron Boots", "imgpath": "textures/items/iron_boots.png"}, "diamond_leggings": {"display": "Diamond Leggings", "imgpath": "textures/items/diamond_leggings.png"}, "bed": {"display": "Bed", "imgpath": "textures/items/barrier.png"}, "stone_sword": {"display": "Stone Sword", "imgpath": "textures/items/stone_sword.png"}, "blaze_rod": {"display": "Blaze Rod", "imgpath": "textures/items/blaze_rod.png"}, "leather_helmet": {"display": "Leather Helmet", "imgpath": "textures/items/leather_helmet.png"}, "leather": {"display": "Leather", "imgpath": "textures/items/leather.png"}, "melon_seeds": {"display": "Melon Seeds", "imgpath": "textures/items/barrier.png"}, "chorus_fruit_popped": {"display": "Chorus Fruit Popped", "imgpath": "textures/items/chorus_fruit_popped.png"}, "lit_pumpkin": {"display": "Lit Pumpkin", "imgpath": "textures/items/barrier.png"}, "brick_stairs": {"display": "Brick Stairs", "imgpath": "textures/items/barrier.png"}, "light_weighted_pressure_plate": {"display": "Light Weighted Pressure Plate", "imgpath": "textures/items/barrier.png"}, "tnt": {"display": "Tnt", "imgpath": "textures/items/barrier.png"}, "beacon": {"display": "Beacon", "imgpath": "textures/blocks/beacon.png"}, "dispenser": {"display": "Dispenser", "imgpath": "textures/items/barrier.png"}, "glass_bottle": {"display": "Glass Bottle", "imgpath": "textures/items/barrier.png"}, "bone_block": {"display": "Bone Block", "imgpath": "textures/items/barrier.png"}, "string": {"display": "String", "imgpath": "textures/items/string.png"}, "wooden_sword": {"display": "Wooden Sword", "imgpath": "textures/items/barrier.png"}, "beetroot": {"display": "Beetroot", "imgpath": "textures/items/beetroot.png"}, "hopper": {"display": "Hopper", "imgpath": "textures/items/hopper.png"}, "brown_mushroom": {"display": "Brown Mushroom", "imgpath": "textures/items/barrier.png"}, "diamond_helmet": {"display": "Diamond Helmet", "imgpath": "textures/items/diamond_helmet.png"}, "redstone_lamp": {"display": "Redstone Lamp", "imgpath": "textures/items/barrier.png"}, "melon_block": {"display": "Melon Block", "imgpath": "textures/items/barrier.png"}, "melon": {"display": "Melon", "imgpath": "textures/items/melon.png"}, "gunpowder": {"display": "Gunpowder", "imgpath": "textures/items/gunpowder.png"}, "redstone_torch": {"display": "Redstone Torch", "imgpath": "textures/items/barrier.png"}, "diamond_pickaxe": {"display": "Diamond Pickaxe", "imgpath": "textures/items/diamond_pickaxe.png"}, "jukebox": {"display": "Jukebox", "imgpath": "textures/items/barrier.png"}, "ladder": {"display": "Ladder", "imgpath": "textures/blocks/ladder.png"}, "redstone_block": {"display": "Redstone Block", "imgpath": "textures/blocks/redstone_block.png"}, "magma_cream": {"display": "Magma Cream", "imgpath": "textures/items/magma_cream.png"}, "snow_layer": {"display": "Snow Layer", "imgpath": "textures/items/barrier.png"}, "carrot": {"display": "Carrot", "imgpath": "textures/items/carrot.png"}, "netherbrick": {"display": "Netherbrick", "imgpath": "textures/items/netherbrick.png"}, "blaze_powder": {"display": "Blaze Powder", "imgpath": "textures/items/blaze_powder.png"}, "purpur_slab": {"display": "Purpur Slab", "imgpath": "textures/items/barrier.png"}, "stonebrick": {"display": "Stonebrick", "imgpath": "textures/blocks/stonebrick.png"}, "pumpkin_pie": {"display": "Pumpkin Pie", "imgpath": "textures/items/pumpkin_pie.png"}, "magma": {"display": "Magma", "imgpath": "textures/blocks/magma.png"}, "vine": {"display": "Vine", "imgpath": "textures/blocks/vine.png"}, "iron_door": {"display": "Iron Door", "imgpath": "textures/items/barrier.png"}, "nether_wart": {"display": "Nether Wart", "imgpath": "textures/items/nether_wart.png"}, "golden_axe": {"display": "Golden Axe", "imgpath": "textures/items/barrier.png"}, "quartz_block": {"display": "Quartz Block", "imgpath": "textures/items/barrier.png"}, "shield": {"display": "Shield", "imgpath": "textures/items/barrier.png"}, "golden_helmet": {"display": "Golden Helmet", "imgpath": "textures/items/barrier.png"}, "pumpkin_seeds": {"display": "Pumpkin Seeds", "imgpath": "textures/items/barrier.png"}, "diamond_chestplate": {"display": "Diamond Chestplate", "imgpath": "textures/items/diamond_chestplate.png"}, "compass": {"display": "Compass", "imgpath": "textures/items/barrier.png"}, "sugar": {"display": "Sugar", "imgpath": "textures/items/sugar.png"}, "fermented_spider_eye": {"display": "Fermented Spider Eye", "imgpath": "textures/items/barrier.png"}, "flower_pot": {"display": "Flower Pot", "imgpath": "textures/blocks/flower_pot.png"}, "clock": {"display": "Clock", "imgpath": "textures/items/barrier.png"}, "slime_ball": {"display": "Slime Ball", "imgpath": "textures/items/barrier.png"}, "banner": {"display": "Banner", "imgpath": "textures/items/barrier.png"}, "wooden_axe": {"display": "Wooden Axe", "imgpath": "textures/items/barrier.png"}, "flint": {"display": "Flint", "imgpath": "textures/items/flint.png"}, "furnace": {"display": "Furnace", "imgpath": "textures/items/barrier.png"}, "crafting_table": {"display": "Crafting Table", "imgpath": "textures/items/barrier.png"}, "purpur_stairs": {"display": "Purpur Stairs", "imgpath": "textures/items/barrier.png"}, "coal_block": {"display": "Coal Block", "imgpath": "textures/blocks/coal_block.png"}, "piston": {"display": "Piston", "imgpath": "textures/items/barrier.png"}, "sign": {"display": "Sign", "imgpath": "textures/items/sign.png"}, "wooden_slab": {"display": "Wooden Slab", "imgpath": "textures/items/barrier.png"}, "iron_sword": {"display": "Iron Sword", "imgpath": "textures/items/iron_sword.png"}, "writable_book": {"display": "Writable Book", "imgpath": "textures/items/barrier.png"}, "daylight_detector": {"display": "Daylight Detector", "imgpath": "textures/items/barrier.png"}, "golden_shovel": {"display": "Golden Shovel", "imgpath": "textures/items/barrier.png"}, "diamond_shovel": {"display": "Diamond Shovel", "imgpath": "textures/items/diamond_shovel.png"}, "fence_gate": {"display": "Fence Gate", "imgpath": "textures/items/barrier.png"}, "diamond_hoe": {"display": "Diamond Hoe", "imgpath": "textures/items/diamond_hoe.png"}, "minecart": {"display": "Minecart", "imgpath": "textures/items/barrier.png"}, "observer": {"display": "Observer", "imgpath": "textures/items/barrier.png"}, "prismarine_shard": {"display": "Prismarine Shard", "imgpath": "textures/items/prismarine_shard.png"}, "iron_ingot": {"display": "Iron Ingot", "imgpath": "textures/items/iron_ingot.png"}, "sticky_piston": {"display": "Sticky Piston", "imgpath": "textures/items/barrier.png"}, "boat": {"display": "Boat", "imgpath": "textures/items/barrier.png"}, "nether_brick_fence": {"display": "Nether Brick Fence", "imgpath": "textures/items/barrier.png"}, "quartz": {"display": "Quartz", "imgpath": "textures/items/quartz.png"}, "golden_sword": {"display": "Golden Sword", "imgpath": "textures/items/barrier.png"}, "purpur_pillar": {"display": "Purpur Pillar", "imgpath": "textures/blocks/purpur_pillar.png"}, "stone_brick_stairs": {"display": "Stone Brick Stairs", "imgpath": "textures/items/barrier.png"}, "sea_lantern": {"display": "Sea Lantern", "imgpath": "textures/blocks/sea_lantern.png"}, "gold_block": {"display": "Gold Block", "imgpath": "textures/blocks/gold_block.png"}, "mushroom_stew": {"display": "Mushroom Stew", "imgpath": "textures/items/mushroom_stew.png"}, "furnace_minecart": {"display": "Furnace Minecart", "imgpath": "textures/items/barrier.png"}, "comparator": {"display": "Comparator", "imgpath": "textures/items/comparator.png"}, "paper": {"display": "Paper", "imgpath": "textures/items/paper.png"}, "oak_stairs": {"display": "Oak Stairs", "imgpath": "textures/items/barrier.png"}, "diamond_axe": {"display": "Diamond Axe", "imgpath": "textures/items/diamond_axe.png"}, "speckled_melon": {"display": "Speckled Melon", "imgpath": "textures/items/barrier.png"}, "clay": {"display": "Clay", "imgpath": "textures/blocks/clay.png"}, "trapped_chest": {"display": "Trapped Chest", "imgpath": "textures/items/barrier.png"}, "lever": {"display": "Lever", "imgpath": "textures/blocks/lever.png"}, "bookshelf": {"display": "Bookshelf", "imgpath": "textures/blocks/bookshelf.png"}, "diamond_sword": {"display": "Diamond Sword", "imgpath": "textures/items/diamond_sword.png"}, "iron_axe": {"display": "Iron Axe", "imgpath": "textures/items/iron_axe.png"}, "enchanting_table": {"display": "Enchanting Table", "imgpath": "textures/items/barrier.png"}, "arrow": {"display": "Arrow", "imgpath": "textures/items/arrow.png"}, "iron_chestplate": {"display": "Iron Chestplate", "imgpath": "textures/items/iron_chestplate.png"}, "activator_rail": {"display": "Activator Rail", "imgpath": "textures/items/barrier.png"}, "glass_pane": {"display": "Glass Pane", "imgpath": "textures/items/barrier.png"}, "stone_stairs": {"display": "Stone Stairs", "imgpath": "textures/items/barrier.png"}, "redstone": {"display": "Redstone", "imgpath": "textures/items/barrier.png"}, "brewing_stand": {"display": "Brewing Stand", "imgpath": "textures/blocks/brewing_stand.png"}, "cobblestone": {"display": "Cobblestone", "imgpath": "textures/blocks/cobblestone.png"}, "red_mushroom": {"display": "Red Mushroom", "imgpath": "textures/items/barrier.png"}, "brick_block": {"display": "Brick Block", "imgpath": "textures/items/barrier.png"}, "dye": {"display": "Dye", "imgpath": "textures/items/barrier.png"}, "detector_rail": {"display": "Detector Rail", "imgpath": "textures/items/barrier.png"}, "golden_carrot": {"display": "Golden Carrot", "imgpath": "textures/items/barrier.png"}, "stone_slab": {"display": "Stone Slab", "imgpath": "textures/items/barrier.png"}, "golden_boots": {"display": "Golden Boots", "imgpath": "textures/items/barrier.png"}, "spider_eye": {"display": "Spider Eye", "imgpath": "textures/items/spider_eye.png"}, "gravel": {"display": "Gravel", "imgpath": "textures/blocks/gravel.png"}, "sand": {"display": "Sand", "imgpath": "textures/blocks/sand.png"}, "snowball": {"display": "Snowball", "imgpath": "textures/items/snowball.png"}, "hay_block": {"display": "Hay Block", "imgpath": "textures/items/barrier.png"}, "egg": {"display": "Egg", "imgpath": "textures/items/egg.png"}, "anvil": {"display": "Anvil", "imgpath": "textures/items/barrier.png"}, "wooden_pressure_plate": {"display": "Wooden Pressure Plate", "imgpath": "textures/items/barrier.png"}, "torch": {"display": "Torch", "imgpath": "textures/items/barrier.png"}, "prismarine_crystals": {"display": "Prismarine Crystals", "imgpath": "textures/items/prismarine_crystals.png"}, "stone": {"display": "Stone", "imgpath": "textures/blocks/stone.png"}, "end_rod": {"display": "End Rod", "imgpath": "textures/blocks/end_rod.png"}, "trapdoor": {"display": "Trapdoor", "imgpath": "textures/blocks/trapdoor.png"}, "stone_button": {"display": "Stone Button", "imgpath": "textures/items/barrier.png"}}, "index": {"redstone": {"recipes": ["dropper", "golden_rail", "redstone_lamp", "clock", "observer", "redstone_block", "noteblock", "dispenser", "compass", "detector_rail", "redstone_torch", "piston", "repeater"]}, "cobblestone": {"recipes": ["dropper", "stone_shovel", "observer", "stone_sword", "dispenser", "lever", "stone_stairs", "stone_hoe", "stone_pickaxe", "stone_axe", "mossy_cobblestone", "brewing_stand", "furnace", "piston"]}, "stone": {"recipes": ["stone_pressure_plate", "stone", "comparator", "stone_button", "repeater"]}, "minecart": {"recipes": ["furnace_minecart", "hopper_minecart", "tnt_minecart", "chest_minecart"]}, "furnace": {"recipes": ["furnace_minecart"]}, "iron_ingot": {"recipes": ["bucket", "cauldron", "minecart", "iron_nugget", "iron_chestplate", "shears", "heavy_weighted_pressure_plate", "compass", "iron_boots", "iron_axe", "iron_bars", "shield", "iron_hoe", "flint_and_steel", "iron_sword", "iron_leggings", "activator_rail", "iron_shovel", "hopper", "iron_helmet", "iron_pickaxe", "detector_rail", "iron_trapdoor", "rail", "tripwire_hook", "anvil", "iron_block", "iron_door", "piston"]}, "dye": {"recipes": ["lapis_block", "cookie", "writable_book", "bone_block"]}, "mossy_cobblestone": {"recipes": ["cobblestone_wall"]}, "stick": {"recipes": ["stone_shovel", "golden_rail", "diamond_sword", "stone_sword", "fishing_rod", "banner", "wooden_sword", "iron_axe", "diamond_axe", "diamond_hoe", "lever", "iron_hoe", "arrow", "wooden_hoe", "wooden_axe", "wooden_shovel", "stone_hoe", "wooden_pickaxe", "diamond_shovel", "stone_pickaxe", "golden_pickaxe", "stone_axe", "ladder", "fence", "painting", "golden_sword", "iron_sword", "activator_rail", "diamond_pickaxe", "sign", "fence_gate", "iron_shovel", "bow", "iron_pickaxe", "torch", "rail", "tripwire_hook", "redstone_torch", "item_frame", "armor_stand", "golden_hoe", "golden_shovel", "golden_axe"]}, "glass": {"recipes": ["glass_bottle", "end_crystal", "glass_pane", "beacon", "daylight_detector"]}, "gold_ingot": {"recipes": ["gold_nugget", "golden_rail", "clock", "light_weighted_pressure_plate", "golden_boots", "golden_leggings", "gold_block", "golden_pickaxe", "golden_helmet", "golden_sword", "golden_chestplate", "golden_apple", "golden_hoe", "golden_shovel", "golden_axe"]}, "leather": {"recipes": ["leather_chestplate", "leather_helmet", "book", "leather_leggings", "leather_boots", "item_frame"]}, "planks": {"recipes": ["wooden_button", "noteblock", "trapdoor", "wooden_slab", "wooden_door", "chest", "bed", "wooden_sword", "bookshelf", "shield", "stick", "wooden_hoe", "bowl", "wooden_axe", "wooden_shovel", "wooden_pickaxe", "jukebox", "fence", "oak_stairs", "crafting_table", "sign", "fence_gate", "tripwire_hook", "piston", "boat", "wooden_pressure_plate"]}, "carrot": {"recipes": ["golden_carrot", "carrot_on_a_stick"]}, "gold_nugget": {"recipes": ["golden_carrot", "speckled_melon"]}, "glowstone": {"recipes": ["redstone_lamp"]}, "chorus_fruit_popped": {"recipes": ["purpur_block", "end_rod"]}, "bone": {"recipes": ["dye"]}, "quartz": {"recipes": ["observer", "stone", "comparator", "quartz_block", "daylight_detector"]}, "sand": {"recipes": ["sandstone", "tnt"]}, "hopper": {"recipes": ["hopper_minecart"]}, "quartz_block": {"recipes": ["stone_slab", "quartz_stairs"]}, "ghast_tear": {"recipes": ["end_crystal"]}, "ender_eye": {"recipes": ["end_crystal", "ender_chest"]}, "diamond": {"recipes": ["diamond_sword", "diamond_chestplate", "diamond_block", "diamond_axe", "diamond_hoe", "diamond_shovel", "jukebox", "enchanting_table", "diamond_pickaxe", "diamond_boots", "diamond_leggings", "diamond_helmet"]}, "dirt": {"recipes": ["dirt"]}, "gravel": {"recipes": ["dirt"]}, "stonebrick": {"recipes": ["stonebrick", "stone_brick_stairs"]}, "vine": {"recipes": ["stonebrick", "mossy_cobblestone"]}, "redstone_torch": {"recipes": ["comparator", "activator_rail", "repeater"]}, "string": {"recipes": ["fishing_rod", "lead", "bow", "wool"]}, "red_mushroom": {"recipes": ["mushroom_stew"]}, "brown_mushroom": {"recipes": ["mushroom_stew", "fermented_spider_eye"]}, "bowl": {"recipes": ["mushroom_stew", "beetroot_soup"]}, "wheat": {"recipes": ["cookie", "hay_block", "cake", "bread"]}, "slime_ball": {"recipes": ["sticky_piston", "slime", "lead", "magma_cream"]}, "piston": {"recipes": ["sticky_piston"]}, "tripwire_hook": {"recipes": ["trapped_chest"]}, "chest": {"recipes": ["trapped_chest", "chest_minecart", "hopper"]}, "obsidian": {"recipes": ["ender_chest", "enchanting_table", "beacon"]}, "emerald_block": {"recipes": ["emerald"]}, "purpur_block": {"recipes": ["purpur_slab", "purpur_stairs"]}, "beetroot": {"recipes": ["beetroot_soup"]}, "book": {"recipes": ["writable_book", "bookshelf", "enchanting_table"]}, "feather": {"recipes": ["writable_book", "arrow"]}, "bow": {"recipes": ["dispenser"]}, "pumpkin": {"recipes": ["pumpkin_seeds", "lit_pumpkin", "pumpkin_pie"]}, "sandstone": {"recipes": ["sandstone_stairs"]}, "clay_ball": {"recipes": ["clay"]}, "ender_pearl": {"recipes": ["ender_eye"]}, "blaze_powder": {"recipes": ["ender_eye", "magma_cream"]}, "iron_nugget": {"recipes": ["iron_ingot"]}, "melon": {"recipes": ["melon_block", "speckled_melon", "melon_seeds"]}, "tnt": {"recipes": ["tnt_minecart"]}, "wool": {"recipes": ["bed", "banner", "painting"]}, "blaze_rod": {"recipes": ["blaze_powder", "end_rod", "brewing_stand"]}, "torch": {"recipes": ["lit_pumpkin"]}, "gunpowder": {"recipes": ["tnt"]}, "purpur_slab": {"recipes": ["purpur_pillar"]}, "nether_wart": {"recipes": ["nether_wart_block"]}, "paper": {"recipes": ["book", "map"]}, "prismarine_crystals": {"recipes": ["sea_lantern"]}, "prismarine_shard": {"recipes": ["sea_lantern", "prismarine"]}, "brick": {"recipes": ["brick_block", "flower_pot"]}, "flint": {"recipes": ["arrow", "flint_and_steel"]}, "reeds": {"recipes": ["sugar", "paper"]}, "end_stone": {"recipes": ["end_bricks"]}, "netherbrick": {"recipes": ["nether_brick"]}, "brick_block": {"recipes": ["brick_stairs"]}, "diamond_block": {"recipes": ["diamond"]}, "egg": {"recipes": ["pumpkin_pie", "cake"]}, "sugar": {"recipes": ["pumpkin_pie", "cake", "fermented_spider_eye"]}, "nether_brick": {"recipes": ["nether_brick_stairs", "nether_brick_fence"]}, "rabbit_hide": {"recipes": ["leather"]}, "gold_block": {"recipes": ["gold_ingot"]}, "snowball": {"recipes": ["snow"]}, "milk_bucket": {"recipes": ["cake"]}, "spider_eye": {"recipes": ["fermented_spider_eye"]}, "nether_star": {"recipes": ["beacon"]}, "magma_cream": {"recipes": ["magma"]}, "emerald": {"recipes": ["emerald_block"]}, "coal": {"recipes": ["coal_block", "torch"]}, "redstone_block": {"recipes": ["redstone"]}, "fishing_rod": {"recipes": ["carrot_on_a_stick"]}, "arrow": {"recipes": ["spectral_arrow"]}, "glowstone_dust": {"recipes": ["spectral_arrow", "glowstone"]}, "stone_pressure_plate": {"recipes": ["detector_rail"]}, "apple": {"recipes": ["golden_apple"]}, "wooden_slab": {"recipes": ["daylight_detector"]}, "snow": {"recipes": ["snow_layer"]}, "log": {"recipes": ["planks"]}, "coal_block": {"recipes": ["coal"]}, "iron_block": {"recipes": ["anvil"]}, "compass": {"recipes": ["map"]}, "hay_block": {"recipes": ["wheat"]}}}
+{
+  "recipes": {
+    "dropper": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "cobblestone",
+        "cobblestone",
+        "redstone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "stone_pressure_plate": {
+      "ingredients": [
+        "stone",
+        "stone",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "furnace_minecart": {
+      "ingredients": [
+        "furnace",
+        "_",
+        "_",
+        "minecart",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "bucket": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "lapis_block": {
+      "ingredients": [
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye"
+      ],
+      "pattern": 1
+    },
+    "cobblestone_wall": {
+      "ingredients": [
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "mossy_cobblestone",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "cauldron": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "stone_shovel": {
+      "ingredients": [
+        "cobblestone",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "glass_bottle": {
+      "ingredients": [
+        "glass",
+        "_",
+        "glass",
+        "_",
+        "glass",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "gold_nugget": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "leather_chestplate": {
+      "ingredients": [
+        "leather",
+        "_",
+        "leather",
+        "leather",
+        "leather",
+        "leather",
+        "leather",
+        "leather",
+        "leather"
+      ],
+      "pattern": 1
+    },
+    "wooden_button": {
+      "ingredients": [
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_carrot": {
+      "ingredients": [
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "carrot",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget"
+      ],
+      "pattern": 1
+    },
+    "golden_rail": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "gold_ingot",
+        "stick",
+        "gold_ingot",
+        "gold_ingot",
+        "redstone",
+        "gold_ingot"
+      ],
+      "pattern": 1
+    },
+    "redstone_lamp": {
+      "ingredients": [
+        "_",
+        "redstone",
+        "_",
+        "redstone",
+        "glowstone",
+        "redstone",
+        "_",
+        "redstone",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "clock": {
+      "ingredients": [
+        "_",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "redstone",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "purpur_block": {
+      "ingredients": [
+        "chorus_fruit_popped",
+        "chorus_fruit_popped",
+        "_",
+        "chorus_fruit_popped",
+        "chorus_fruit_popped",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "dye": {
+      "ingredients": [
+        "bone",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "observer": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "redstone",
+        "redstone",
+        "quartz",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "sandstone": {
+      "ingredients": [
+        "sand",
+        "sand",
+        "_",
+        "sand",
+        "sand",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "light_weighted_pressure_plate": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "hopper_minecart": {
+      "ingredients": [
+        "hopper",
+        "_",
+        "_",
+        "minecart",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_slab": {
+      "ingredients": [
+        "quartz_block",
+        "quartz_block",
+        "quartz_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "end_crystal": {
+      "ingredients": [
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "ender_eye",
+        "glass",
+        "glass",
+        "ghast_tear",
+        "glass"
+      ],
+      "pattern": 1
+    },
+    "diamond_sword": {
+      "ingredients": [
+        "diamond",
+        "_",
+        "_",
+        "diamond",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "dirt": {
+      "ingredients": [
+        "dirt",
+        "gravel",
+        "_",
+        "gravel",
+        "dirt",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone": {
+      "ingredients": [
+        "stone",
+        "quartz",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "stone_sword": {
+      "ingredients": [
+        "cobblestone",
+        "_",
+        "_",
+        "cobblestone",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stonebrick": {
+      "ingredients": [
+        "stonebrick",
+        "vine",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "redstone_block": {
+      "ingredients": [
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone",
+        "redstone"
+      ],
+      "pattern": 1
+    },
+    "comparator": {
+      "ingredients": [
+        "_",
+        "redstone_torch",
+        "_",
+        "redstone_torch",
+        "quartz",
+        "redstone_torch",
+        "stone",
+        "stone",
+        "stone"
+      ],
+      "pattern": 1
+    },
+    "minecart": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "noteblock": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "redstone",
+        "planks",
+        "planks",
+        "planks",
+        "planks"
+      ],
+      "pattern": 1
+    },
+    "diamond_chestplate": {
+      "ingredients": [
+        "diamond",
+        "_",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond"
+      ],
+      "pattern": 1
+    },
+    "fishing_rod": {
+      "ingredients": [
+        "_",
+        "_",
+        "stick",
+        "_",
+        "stick",
+        "string",
+        "stick",
+        "_",
+        "string"
+      ],
+      "pattern": 1
+    },
+    "mushroom_stew": {
+      "ingredients": [
+        "brown_mushroom",
+        "red_mushroom",
+        "bowl",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "cookie": {
+      "ingredients": [
+        "wheat",
+        "dye",
+        "wheat",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "trapdoor": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "sticky_piston": {
+      "ingredients": [
+        "slime_ball",
+        "_",
+        "_",
+        "piston",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "trapped_chest": {
+      "ingredients": [
+        "chest",
+        "tripwire_hook",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "ender_chest": {
+      "ingredients": [
+        "obsidian",
+        "obsidian",
+        "obsidian",
+        "obsidian",
+        "ender_eye",
+        "obsidian",
+        "obsidian",
+        "obsidian",
+        "obsidian"
+      ],
+      "pattern": 1
+    },
+    "emerald": {
+      "ingredients": [
+        "emerald_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "purpur_slab": {
+      "ingredients": [
+        "purpur_block",
+        "purpur_block",
+        "purpur_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "leather_helmet": {
+      "ingredients": [
+        "leather",
+        "leather",
+        "leather",
+        "leather",
+        "_",
+        "leather",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_nugget": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "beetroot_soup": {
+      "ingredients": [
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "beetroot",
+        "_",
+        "bowl",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "quartz_block": {
+      "ingredients": [
+        "quartz",
+        "quartz",
+        "_",
+        "quartz",
+        "quartz",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_chestplate": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "writable_book": {
+      "ingredients": [
+        "book",
+        "dye",
+        "feather",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "dispenser": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "bow",
+        "cobblestone",
+        "cobblestone",
+        "redstone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "quartz_stairs": {
+      "ingredients": [
+        "quartz_block",
+        "_",
+        "_",
+        "quartz_block",
+        "quartz_block",
+        "_",
+        "quartz_block",
+        "quartz_block",
+        "quartz_block"
+      ],
+      "pattern": 1
+    },
+    "wooden_slab": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "pumpkin_seeds": {
+      "ingredients": [
+        "pumpkin",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "sandstone_stairs": {
+      "ingredients": [
+        "sandstone",
+        "_",
+        "_",
+        "sandstone",
+        "sandstone",
+        "_",
+        "sandstone",
+        "sandstone",
+        "sandstone"
+      ],
+      "pattern": 1
+    },
+    "clay": {
+      "ingredients": [
+        "clay_ball",
+        "clay_ball",
+        "_",
+        "clay_ball",
+        "clay_ball",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "ender_eye": {
+      "ingredients": [
+        "ender_pearl",
+        "blaze_powder",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "wooden_door": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "chest": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "planks",
+        "planks"
+      ],
+      "pattern": 1
+    },
+    "iron_ingot": {
+      "ingredients": [
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget",
+        "iron_nugget"
+      ],
+      "pattern": 1
+    },
+    "shears": {
+      "ingredients": [
+        "_",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "melon_block": {
+      "ingredients": [
+        "melon",
+        "melon",
+        "melon",
+        "melon",
+        "melon",
+        "melon",
+        "melon",
+        "melon",
+        "melon"
+      ],
+      "pattern": 1
+    },
+    "tnt_minecart": {
+      "ingredients": [
+        "tnt",
+        "_",
+        "_",
+        "minecart",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "bed": {
+      "ingredients": [
+        "wool",
+        "wool",
+        "wool",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "heavy_weighted_pressure_plate": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "blaze_powder": {
+      "ingredients": [
+        "blaze_rod",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "lit_pumpkin": {
+      "ingredients": [
+        "pumpkin",
+        "_",
+        "_",
+        "torch",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "banner": {
+      "ingredients": [
+        "wool",
+        "wool",
+        "wool",
+        "wool",
+        "wool",
+        "wool",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_boots": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "tnt": {
+      "ingredients": [
+        "gunpowder",
+        "sand",
+        "gunpowder",
+        "sand",
+        "gunpowder",
+        "sand",
+        "gunpowder",
+        "sand",
+        "gunpowder"
+      ],
+      "pattern": 1
+    },
+    "diamond_block": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond"
+      ],
+      "pattern": 1
+    },
+    "end_rod": {
+      "ingredients": [
+        "blaze_rod",
+        "_",
+        "_",
+        "chorus_fruit_popped",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "purpur_pillar": {
+      "ingredients": [
+        "purpur_slab",
+        "_",
+        "_",
+        "purpur_slab",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_leggings": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "gold_ingot"
+      ],
+      "pattern": 1
+    },
+    "compass": {
+      "ingredients": [
+        "_",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "redstone",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "wooden_sword": {
+      "ingredients": [
+        "planks",
+        "_",
+        "_",
+        "planks",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "nether_wart_block": {
+      "ingredients": [
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart",
+        "nether_wart"
+      ],
+      "pattern": 1
+    },
+    "book": {
+      "ingredients": [
+        "paper",
+        "paper",
+        "paper",
+        "leather",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "iron_boots": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "sea_lantern": {
+      "ingredients": [
+        "prismarine_shard",
+        "prismarine_crystals",
+        "prismarine_shard",
+        "prismarine_crystals",
+        "prismarine_crystals",
+        "prismarine_crystals",
+        "prismarine_shard",
+        "prismarine_crystals",
+        "prismarine_shard"
+      ],
+      "pattern": 1
+    },
+    "iron_axe": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "bookshelf": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "book",
+        "book",
+        "book",
+        "planks",
+        "planks",
+        "planks"
+      ],
+      "pattern": 1
+    },
+    "diamond_axe": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "_",
+        "diamond",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "brick_block": {
+      "ingredients": [
+        "brick",
+        "brick",
+        "_",
+        "brick",
+        "brick",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_bars": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "shield": {
+      "ingredients": [
+        "planks",
+        "iron_ingot",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "diamond_hoe": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "lever": {
+      "ingredients": [
+        "stick",
+        "_",
+        "_",
+        "cobblestone",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_hoe": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stick": {
+      "ingredients": [
+        "planks",
+        "_",
+        "_",
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "arrow": {
+      "ingredients": [
+        "flint",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "feather",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "sugar": {
+      "ingredients": [
+        "reeds",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "wooden_hoe": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_stairs": {
+      "ingredients": [
+        "cobblestone",
+        "_",
+        "_",
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "paper": {
+      "ingredients": [
+        "reeds",
+        "reeds",
+        "reeds",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "prismarine": {
+      "ingredients": [
+        "prismarine_shard",
+        "prismarine_shard",
+        "_",
+        "prismarine_shard",
+        "prismarine_shard",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "bowl": {
+      "ingredients": [
+        "planks",
+        "_",
+        "planks",
+        "_",
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_brick_stairs": {
+      "ingredients": [
+        "stonebrick",
+        "_",
+        "_",
+        "stonebrick",
+        "stonebrick",
+        "_",
+        "stonebrick",
+        "stonebrick",
+        "stonebrick"
+      ],
+      "pattern": 1
+    },
+    "speckled_melon": {
+      "ingredients": [
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "melon",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget",
+        "gold_nugget"
+      ],
+      "pattern": 1
+    },
+    "gold_block": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot"
+      ],
+      "pattern": 1
+    },
+    "wooden_axe": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "wooden_shovel": {
+      "ingredients": [
+        "planks",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_hoe": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "wooden_pickaxe": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_button": {
+      "ingredients": [
+        "stone",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "diamond_shovel": {
+      "ingredients": [
+        "diamond",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_pickaxe": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_pickaxe": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_helmet": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "end_bricks": {
+      "ingredients": [
+        "end_stone",
+        "end_stone",
+        "_",
+        "end_stone",
+        "end_stone",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "nether_brick": {
+      "ingredients": [
+        "netherbrick",
+        "netherbrick",
+        "_",
+        "netherbrick",
+        "netherbrick",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "slime": {
+      "ingredients": [
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball",
+        "slime_ball"
+      ],
+      "pattern": 1
+    },
+    "jukebox": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "diamond",
+        "planks",
+        "planks",
+        "planks",
+        "planks"
+      ],
+      "pattern": 1
+    },
+    "lead": {
+      "ingredients": [
+        "string",
+        "string",
+        "_",
+        "string",
+        "slime_ball",
+        "_",
+        "_",
+        "_",
+        "string"
+      ],
+      "pattern": 1
+    },
+    "brick_stairs": {
+      "ingredients": [
+        "brick_block",
+        "_",
+        "_",
+        "brick_block",
+        "brick_block",
+        "_",
+        "brick_block",
+        "brick_block",
+        "brick_block"
+      ],
+      "pattern": 1
+    },
+    "diamond": {
+      "ingredients": [
+        "diamond_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "stone_axe": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "cobblestone",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "flint_and_steel": {
+      "ingredients": [
+        "iron_ingot",
+        "flint",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "ladder": {
+      "ingredients": [
+        "stick",
+        "_",
+        "stick",
+        "stick",
+        "stick",
+        "stick",
+        "stick",
+        "_",
+        "stick"
+      ],
+      "pattern": 1
+    },
+    "mossy_cobblestone": {
+      "ingredients": [
+        "cobblestone",
+        "vine",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "fence": {
+      "ingredients": [
+        "planks",
+        "stick",
+        "planks",
+        "planks",
+        "stick",
+        "planks",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "painting": {
+      "ingredients": [
+        "stick",
+        "stick",
+        "stick",
+        "stick",
+        "wool",
+        "stick",
+        "stick",
+        "stick",
+        "stick"
+      ],
+      "pattern": 1
+    },
+    "oak_stairs": {
+      "ingredients": [
+        "planks",
+        "_",
+        "_",
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "planks"
+      ],
+      "pattern": 1
+    },
+    "golden_sword": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "_",
+        "gold_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "pumpkin_pie": {
+      "ingredients": [
+        "pumpkin",
+        "sugar",
+        "egg",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "chest_minecart": {
+      "ingredients": [
+        "chest",
+        "_",
+        "_",
+        "minecart",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "crafting_table": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "nether_brick_stairs": {
+      "ingredients": [
+        "nether_brick",
+        "_",
+        "_",
+        "nether_brick",
+        "nether_brick",
+        "_",
+        "nether_brick",
+        "nether_brick",
+        "nether_brick"
+      ],
+      "pattern": 1
+    },
+    "enchanting_table": {
+      "ingredients": [
+        "_",
+        "book",
+        "_",
+        "diamond",
+        "obsidian",
+        "diamond",
+        "obsidian",
+        "obsidian",
+        "obsidian"
+      ],
+      "pattern": 1
+    },
+    "golden_chestplate": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot"
+      ],
+      "pattern": 1
+    },
+    "iron_sword": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "_",
+        "iron_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "flower_pot": {
+      "ingredients": [
+        "brick",
+        "_",
+        "brick",
+        "_",
+        "brick",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "leather": {
+      "ingredients": [
+        "rabbit_hide",
+        "rabbit_hide",
+        "_",
+        "rabbit_hide",
+        "rabbit_hide",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_leggings": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "activator_rail": {
+      "ingredients": [
+        "iron_ingot",
+        "stick",
+        "iron_ingot",
+        "iron_ingot",
+        "redstone_torch",
+        "iron_ingot",
+        "iron_ingot",
+        "stick",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "diamond_pickaxe": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "diamond",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "sign": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "gold_ingot": {
+      "ingredients": [
+        "gold_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "melon_seeds": {
+      "ingredients": [
+        "melon",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "hay_block": {
+      "ingredients": [
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat",
+        "wheat"
+      ],
+      "pattern": 1
+    },
+    "snow": {
+      "ingredients": [
+        "snowball",
+        "snowball",
+        "_",
+        "snowball",
+        "snowball",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "cake": {
+      "ingredients": [
+        "milk_bucket",
+        "milk_bucket",
+        "milk_bucket",
+        "sugar",
+        "egg",
+        "sugar",
+        "wheat",
+        "wheat",
+        "wheat"
+      ],
+      "pattern": 1
+    },
+    "fence_gate": {
+      "ingredients": [
+        "stick",
+        "planks",
+        "stick",
+        "stick",
+        "planks",
+        "stick",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_shovel": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "fermented_spider_eye": {
+      "ingredients": [
+        "spider_eye",
+        "brown_mushroom",
+        "sugar",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "glass_pane": {
+      "ingredients": [
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "leather_leggings": {
+      "ingredients": [
+        "leather",
+        "leather",
+        "leather",
+        "leather",
+        "_",
+        "leather",
+        "leather",
+        "_",
+        "leather"
+      ],
+      "pattern": 1
+    },
+    "beacon": {
+      "ingredients": [
+        "glass",
+        "glass",
+        "glass",
+        "glass",
+        "nether_star",
+        "glass",
+        "obsidian",
+        "obsidian",
+        "obsidian"
+      ],
+      "pattern": 1
+    },
+    "magma": {
+      "ingredients": [
+        "magma_cream",
+        "magma_cream",
+        "_",
+        "magma_cream",
+        "magma_cream",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "brewing_stand": {
+      "ingredients": [
+        "_",
+        "blaze_rod",
+        "_",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "furnace": {
+      "ingredients": [
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "_",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "bread": {
+      "ingredients": [
+        "wheat",
+        "wheat",
+        "wheat",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "emerald_block": {
+      "ingredients": [
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald",
+        "emerald"
+      ],
+      "pattern": 1
+    },
+    "coal_block": {
+      "ingredients": [
+        "coal",
+        "coal",
+        "coal",
+        "coal",
+        "coal",
+        "coal",
+        "coal",
+        "coal",
+        "coal"
+      ],
+      "pattern": 1
+    },
+    "hopper": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "chest",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_helmet": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "purpur_stairs": {
+      "ingredients": [
+        "purpur_block",
+        "_",
+        "_",
+        "purpur_block",
+        "purpur_block",
+        "_",
+        "purpur_block",
+        "purpur_block",
+        "purpur_block"
+      ],
+      "pattern": 1
+    },
+    "bow": {
+      "ingredients": [
+        "_",
+        "stick",
+        "string",
+        "stick",
+        "_",
+        "string",
+        "_",
+        "stick",
+        "string"
+      ],
+      "pattern": 1
+    },
+    "redstone": {
+      "ingredients": [
+        "redstone_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "carrot_on_a_stick": {
+      "ingredients": [
+        "fishing_rod",
+        "_",
+        "_",
+        "_",
+        "carrot",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "iron_pickaxe": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "spectral_arrow": {
+      "ingredients": [
+        "_",
+        "glowstone_dust",
+        "_",
+        "glowstone_dust",
+        "arrow",
+        "glowstone_dust",
+        "_",
+        "glowstone_dust",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "torch": {
+      "ingredients": [
+        "coal",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "detector_rail": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "stone_pressure_plate",
+        "iron_ingot",
+        "iron_ingot",
+        "redstone",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "golden_apple": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "apple",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot",
+        "gold_ingot"
+      ],
+      "pattern": 1
+    },
+    "iron_trapdoor": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "daylight_detector": {
+      "ingredients": [
+        "glass",
+        "glass",
+        "glass",
+        "quartz",
+        "quartz",
+        "quartz",
+        "wooden_slab",
+        "wooden_slab",
+        "wooden_slab"
+      ],
+      "pattern": 1
+    },
+    "rail": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "stick",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "snow_layer": {
+      "ingredients": [
+        "snow",
+        "snow",
+        "snow",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "planks": {
+      "ingredients": [
+        "log",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "diamond_boots": {
+      "ingredients": [
+        "diamond",
+        "_",
+        "diamond",
+        "diamond",
+        "_",
+        "diamond",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "tripwire_hook": {
+      "ingredients": [
+        "iron_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "planks",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "leather_boots": {
+      "ingredients": [
+        "leather",
+        "_",
+        "leather",
+        "leather",
+        "_",
+        "leather",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "redstone_torch": {
+      "ingredients": [
+        "redstone",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "glowstone": {
+      "ingredients": [
+        "glowstone_dust",
+        "glowstone_dust",
+        "_",
+        "glowstone_dust",
+        "glowstone_dust",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "coal": {
+      "ingredients": [
+        "coal_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "anvil": {
+      "ingredients": [
+        "iron_block",
+        "iron_block",
+        "iron_block",
+        "_",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "map": {
+      "ingredients": [
+        "paper",
+        "paper",
+        "paper",
+        "paper",
+        "compass",
+        "paper",
+        "paper",
+        "paper",
+        "paper"
+      ],
+      "pattern": 1
+    },
+    "item_frame": {
+      "ingredients": [
+        "stick",
+        "stick",
+        "stick",
+        "stick",
+        "leather",
+        "stick",
+        "stick",
+        "stick",
+        "stick"
+      ],
+      "pattern": 1
+    },
+    "iron_block": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot",
+        "iron_ingot"
+      ],
+      "pattern": 1
+    },
+    "iron_door": {
+      "ingredients": [
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_",
+        "iron_ingot",
+        "iron_ingot",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "magma_cream": {
+      "ingredients": [
+        "blaze_powder",
+        "slime_ball",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 0
+    },
+    "armor_stand": {
+      "ingredients": [
+        "stick",
+        "stick",
+        "stick",
+        "_",
+        "stick",
+        "_",
+        "stick",
+        "_",
+        "stick"
+      ],
+      "pattern": 1
+    },
+    "diamond_leggings": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "_",
+        "diamond",
+        "diamond",
+        "_",
+        "diamond"
+      ],
+      "pattern": 1
+    },
+    "piston": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "planks",
+        "cobblestone",
+        "iron_ingot",
+        "cobblestone",
+        "cobblestone",
+        "redstone",
+        "cobblestone"
+      ],
+      "pattern": 1
+    },
+    "wool": {
+      "ingredients": [
+        "string",
+        "string",
+        "_",
+        "string",
+        "string",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_hoe": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "diamond_helmet": {
+      "ingredients": [
+        "diamond",
+        "diamond",
+        "diamond",
+        "diamond",
+        "_",
+        "diamond",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "boat": {
+      "ingredients": [
+        "planks",
+        "_",
+        "planks",
+        "planks",
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_shovel": {
+      "ingredients": [
+        "gold_ingot",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "nether_brick_fence": {
+      "ingredients": [
+        "nether_brick",
+        "nether_brick",
+        "nether_brick",
+        "nether_brick",
+        "nether_brick",
+        "nether_brick",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "repeater": {
+      "ingredients": [
+        "redstone_torch",
+        "redstone",
+        "redstone_torch",
+        "stone",
+        "stone",
+        "stone",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "wheat": {
+      "ingredients": [
+        "hay_block",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "bone_block": {
+      "ingredients": [
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye",
+        "dye"
+      ],
+      "pattern": 1
+    },
+    "wooden_pressure_plate": {
+      "ingredients": [
+        "planks",
+        "planks",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      "pattern": 1
+    },
+    "golden_axe": {
+      "ingredients": [
+        "gold_ingot",
+        "gold_ingot",
+        "_",
+        "gold_ingot",
+        "stick",
+        "_",
+        "_",
+        "stick",
+        "_"
+      ],
+      "pattern": 1
+    }
+  },
+  "items": {
+    "golden_pickaxe": {
+      "display": "Golden Pickaxe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "iron_helmet": {
+      "display": "Iron Helmet",
+      "imgpath": "textures/items/iron_helmet.png"
+    },
+    "hopper_minecart": {
+      "display": "Hopper Minecart",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "brick": {
+      "display": "Brick",
+      "imgpath": "textures/blocks/brick.png"
+    },
+    "wool": {
+      "display": "Wool",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stone_pressure_plate": {
+      "display": "Stone Pressure Plate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "quartz_stairs": {
+      "display": "Quartz Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "painting": {
+      "display": "Painting",
+      "imgpath": "textures/items/painting.png"
+    },
+    "mossy_cobblestone": {
+      "display": "Mossy Cobblestone",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "golden_chestplate": {
+      "display": "Golden Chestplate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "beetroot_soup": {
+      "display": "Beetroot Soup",
+      "imgpath": "textures/items/beetroot_soup.png"
+    },
+    "iron_bars": {
+      "display": "Iron Bars",
+      "imgpath": "textures/blocks/iron_bars.png"
+    },
+    "nether_brick": {
+      "display": "Nether Brick",
+      "imgpath": "textures/blocks/nether_brick.png"
+    },
+    "wooden_hoe": {
+      "display": "Wooden Hoe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "cobblestone_wall": {
+      "display": "Cobblestone Wall",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "wooden_shovel": {
+      "display": "Wooden Shovel",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "map": {
+      "display": "Map",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "nether_brick_stairs": {
+      "display": "Nether Brick Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "cookie": {
+      "display": "Cookie",
+      "imgpath": "textures/items/cookie.png"
+    },
+    "glowstone": {
+      "display": "Glowstone",
+      "imgpath": "textures/blocks/glowstone.png"
+    },
+    "golden_leggings": {
+      "display": "Golden Leggings",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "iron_leggings": {
+      "display": "Iron Leggings",
+      "imgpath": "textures/items/iron_leggings.png"
+    },
+    "carrot_on_a_stick": {
+      "display": "Carrot On A Stick",
+      "imgpath": "textures/items/carrot_on_a_stick.png"
+    },
+    "wooden_pickaxe": {
+      "display": "Wooden Pickaxe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "tripwire_hook": {
+      "display": "Tripwire Hook",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "snow": {
+      "display": "Snow",
+      "imgpath": "textures/blocks/snow.png"
+    },
+    "repeater": {
+      "display": "Repeater",
+      "imgpath": "textures/items/repeater.png"
+    },
+    "iron_hoe": {
+      "display": "Iron Hoe",
+      "imgpath": "textures/items/iron_hoe.png"
+    },
+    "nether_wart_block": {
+      "display": "Nether Wart Block",
+      "imgpath": "textures/blocks/nether_wart_block.png"
+    },
+    "heavy_weighted_pressure_plate": {
+      "display": "Heavy Weighted Pressure Plate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "glass": {
+      "display": "Glass",
+      "imgpath": "textures/blocks/glass.png"
+    },
+    "cake": {
+      "display": "Cake",
+      "imgpath": "textures/items/cake.png"
+    },
+    "iron_shovel": {
+      "display": "Iron Shovel",
+      "imgpath": "textures/items/iron_shovel.png"
+    },
+    "book": {
+      "display": "Book",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "lead": {
+      "display": "Lead",
+      "imgpath": "textures/items/lead.png"
+    },
+    "golden_rail": {
+      "display": "Golden Rail",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "apple": {
+      "display": "Apple",
+      "imgpath": "textures/items/apple.png"
+    },
+    "reeds": {
+      "display": "Reeds",
+      "imgpath": "textures/blocks/reeds.png"
+    },
+    "iron_trapdoor": {
+      "display": "Iron Trapdoor",
+      "imgpath": "textures/blocks/iron_trapdoor.png"
+    },
+    "diamond": {
+      "display": "Diamond",
+      "imgpath": "textures/items/diamond.png"
+    },
+    "log": {
+      "display": "Log",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "end_bricks": {
+      "display": "End Bricks",
+      "imgpath": "textures/blocks/end_bricks.png"
+    },
+    "gold_nugget": {
+      "display": "Gold Nugget",
+      "imgpath": "textures/items/gold_nugget.png"
+    },
+    "leather_leggings": {
+      "display": "Leather Leggings",
+      "imgpath": "textures/items/leather_leggings.png"
+    },
+    "item_frame": {
+      "display": "Item Frame",
+      "imgpath": "textures/items/item_frame.png"
+    },
+    "milk_bucket": {
+      "display": "Milk Bucket",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_block": {
+      "display": "Diamond Block",
+      "imgpath": "textures/blocks/diamond_block.png"
+    },
+    "slime": {
+      "display": "Slime",
+      "imgpath": "textures/blocks/slime.png"
+    },
+    "armor_stand": {
+      "display": "Armor Stand",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "cauldron": {
+      "display": "Cauldron",
+      "imgpath": "textures/items/cauldron.png"
+    },
+    "ender_eye": {
+      "display": "Ender Eye",
+      "imgpath": "textures/items/ender_eye.png"
+    },
+    "flint_and_steel": {
+      "display": "Flint And Steel",
+      "imgpath": "textures/items/flint_and_steel.png"
+    },
+    "noteblock": {
+      "display": "Noteblock",
+      "imgpath": "textures/blocks/noteblock.png"
+    },
+    "golden_hoe": {
+      "display": "Golden Hoe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "nether_star": {
+      "display": "Nether Star",
+      "imgpath": "textures/items/nether_star.png"
+    },
+    "fence": {
+      "display": "Fence",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "obsidian": {
+      "display": "Obsidian",
+      "imgpath": "textures/blocks/obsidian.png"
+    },
+    "gold_ingot": {
+      "display": "Gold Ingot",
+      "imgpath": "textures/items/gold_ingot.png"
+    },
+    "stone_axe": {
+      "display": "Stone Axe",
+      "imgpath": "textures/items/stone_axe.png"
+    },
+    "lapis_block": {
+      "display": "Lapis Block",
+      "imgpath": "textures/blocks/lapis_block.png"
+    },
+    "stick": {
+      "display": "Stick",
+      "imgpath": "textures/items/stick.png"
+    },
+    "coal": {
+      "display": "Coal",
+      "imgpath": "textures/items/coal.png"
+    },
+    "dirt": {
+      "display": "Dirt",
+      "imgpath": "textures/blocks/dirt.png"
+    },
+    "end_stone": {
+      "display": "End Stone",
+      "imgpath": "textures/blocks/end_stone.png"
+    },
+    "diamond_boots": {
+      "display": "Diamond Boots",
+      "imgpath": "textures/items/diamond_boots.png"
+    },
+    "glowstone_dust": {
+      "display": "Glowstone Dust",
+      "imgpath": "textures/items/glowstone_dust.png"
+    },
+    "golden_apple": {
+      "display": "Golden Apple",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "ghast_tear": {
+      "display": "Ghast Tear",
+      "imgpath": "textures/items/ghast_tear.png"
+    },
+    "emerald": {
+      "display": "Emerald",
+      "imgpath": "textures/items/emerald.png"
+    },
+    "stone_pickaxe": {
+      "display": "Stone Pickaxe",
+      "imgpath": "textures/items/stone_pickaxe.png"
+    },
+    "stone_shovel": {
+      "display": "Stone Shovel",
+      "imgpath": "textures/items/stone_shovel.png"
+    },
+    "rabbit_hide": {
+      "display": "Rabbit Hide",
+      "imgpath": "textures/items/rabbit_hide.png"
+    },
+    "spectral_arrow": {
+      "display": "Spectral Arrow",
+      "imgpath": "textures/items/spectral_arrow.png"
+    },
+    "wheat": {
+      "display": "Wheat",
+      "imgpath": "textures/items/wheat.png"
+    },
+    "bone": {
+      "display": "Bone",
+      "imgpath": "textures/items/bone.png"
+    },
+    "fishing_rod": {
+      "display": "Fishing Rod",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "pumpkin": {
+      "display": "Pumpkin",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "iron_block": {
+      "display": "Iron Block",
+      "imgpath": "textures/blocks/iron_block.png"
+    },
+    "bow": {
+      "display": "Bow",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "dropper": {
+      "display": "Dropper",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "bucket": {
+      "display": "Bucket",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "sandstone": {
+      "display": "Sandstone",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stone_hoe": {
+      "display": "Stone Hoe",
+      "imgpath": "textures/items/stone_hoe.png"
+    },
+    "rail": {
+      "display": "Rail",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "iron_nugget": {
+      "display": "Iron Nugget",
+      "imgpath": "textures/items/iron_nugget.png"
+    },
+    "chest": {
+      "display": "Chest",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "leather_chestplate": {
+      "display": "Leather Chestplate",
+      "imgpath": "textures/items/leather_chestplate.png"
+    },
+    "wooden_button": {
+      "display": "Wooden Button",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "feather": {
+      "display": "Feather",
+      "imgpath": "textures/items/feather.png"
+    },
+    "clay_ball": {
+      "display": "Clay Ball",
+      "imgpath": "textures/items/clay_ball.png"
+    },
+    "iron_pickaxe": {
+      "display": "Iron Pickaxe",
+      "imgpath": "textures/items/iron_pickaxe.png"
+    },
+    "purpur_block": {
+      "display": "Purpur Block",
+      "imgpath": "textures/blocks/purpur_block.png"
+    },
+    "ender_chest": {
+      "display": "Ender Chest",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "sandstone_stairs": {
+      "display": "Sandstone Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "bowl": {
+      "display": "Bowl",
+      "imgpath": "textures/items/bowl.png"
+    },
+    "tnt_minecart": {
+      "display": "Tnt Minecart",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "prismarine": {
+      "display": "Prismarine",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "leather_boots": {
+      "display": "Leather Boots",
+      "imgpath": "textures/items/leather_boots.png"
+    },
+    "end_crystal": {
+      "display": "End Crystal",
+      "imgpath": "textures/items/end_crystal.png"
+    },
+    "ender_pearl": {
+      "display": "Ender Pearl",
+      "imgpath": "textures/items/ender_pearl.png"
+    },
+    "wooden_door": {
+      "display": "Wooden Door",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "emerald_block": {
+      "display": "Emerald Block",
+      "imgpath": "textures/blocks/emerald_block.png"
+    },
+    "chest_minecart": {
+      "display": "Chest Minecart",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "bread": {
+      "display": "Bread",
+      "imgpath": "textures/items/bread.png"
+    },
+    "planks": {
+      "display": "Planks",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "shears": {
+      "display": "Shears",
+      "imgpath": "textures/items/shears.png"
+    },
+    "iron_boots": {
+      "display": "Iron Boots",
+      "imgpath": "textures/items/iron_boots.png"
+    },
+    "diamond_leggings": {
+      "display": "Diamond Leggings",
+      "imgpath": "textures/items/diamond_leggings.png"
+    },
+    "bed": {
+      "display": "Bed",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stone_sword": {
+      "display": "Stone Sword",
+      "imgpath": "textures/items/stone_sword.png"
+    },
+    "blaze_rod": {
+      "display": "Blaze Rod",
+      "imgpath": "textures/items/blaze_rod.png"
+    },
+    "leather_helmet": {
+      "display": "Leather Helmet",
+      "imgpath": "textures/items/leather_helmet.png"
+    },
+    "leather": {
+      "display": "Leather",
+      "imgpath": "textures/items/leather.png"
+    },
+    "melon_seeds": {
+      "display": "Melon Seeds",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "chorus_fruit_popped": {
+      "display": "Chorus Fruit Popped",
+      "imgpath": "textures/items/chorus_fruit_popped.png"
+    },
+    "lit_pumpkin": {
+      "display": "Lit Pumpkin",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "brick_stairs": {
+      "display": "Brick Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "light_weighted_pressure_plate": {
+      "display": "Light Weighted Pressure Plate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "tnt": {
+      "display": "Tnt",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "beacon": {
+      "display": "Beacon",
+      "imgpath": "textures/blocks/beacon.png"
+    },
+    "dispenser": {
+      "display": "Dispenser",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "glass_bottle": {
+      "display": "Glass Bottle",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "bone_block": {
+      "display": "Bone Block",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "string": {
+      "display": "String",
+      "imgpath": "textures/items/string.png"
+    },
+    "wooden_sword": {
+      "display": "Wooden Sword",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "beetroot": {
+      "display": "Beetroot",
+      "imgpath": "textures/items/beetroot.png"
+    },
+    "hopper": {
+      "display": "Hopper",
+      "imgpath": "textures/items/hopper.png"
+    },
+    "brown_mushroom": {
+      "display": "Brown Mushroom",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_helmet": {
+      "display": "Diamond Helmet",
+      "imgpath": "textures/items/diamond_helmet.png"
+    },
+    "redstone_lamp": {
+      "display": "Redstone Lamp",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "melon_block": {
+      "display": "Melon Block",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "melon": {
+      "display": "Melon",
+      "imgpath": "textures/items/melon.png"
+    },
+    "gunpowder": {
+      "display": "Gunpowder",
+      "imgpath": "textures/items/gunpowder.png"
+    },
+    "redstone_torch": {
+      "display": "Redstone Torch",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_pickaxe": {
+      "display": "Diamond Pickaxe",
+      "imgpath": "textures/items/diamond_pickaxe.png"
+    },
+    "jukebox": {
+      "display": "Jukebox",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "ladder": {
+      "display": "Ladder",
+      "imgpath": "textures/blocks/ladder.png"
+    },
+    "redstone_block": {
+      "display": "Redstone Block",
+      "imgpath": "textures/blocks/redstone_block.png"
+    },
+    "magma_cream": {
+      "display": "Magma Cream",
+      "imgpath": "textures/items/magma_cream.png"
+    },
+    "snow_layer": {
+      "display": "Snow Layer",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "carrot": {
+      "display": "Carrot",
+      "imgpath": "textures/items/carrot.png"
+    },
+    "netherbrick": {
+      "display": "Netherbrick",
+      "imgpath": "textures/items/netherbrick.png"
+    },
+    "blaze_powder": {
+      "display": "Blaze Powder",
+      "imgpath": "textures/items/blaze_powder.png"
+    },
+    "purpur_slab": {
+      "display": "Purpur Slab",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stonebrick": {
+      "display": "Stonebrick",
+      "imgpath": "textures/blocks/stonebrick.png"
+    },
+    "pumpkin_pie": {
+      "display": "Pumpkin Pie",
+      "imgpath": "textures/items/pumpkin_pie.png"
+    },
+    "magma": {
+      "display": "Magma",
+      "imgpath": "textures/blocks/magma.png"
+    },
+    "vine": {
+      "display": "Vine",
+      "imgpath": "textures/blocks/vine.png"
+    },
+    "iron_door": {
+      "display": "Iron Door",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "nether_wart": {
+      "display": "Nether Wart",
+      "imgpath": "textures/items/nether_wart.png"
+    },
+    "golden_axe": {
+      "display": "Golden Axe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "quartz_block": {
+      "display": "Quartz Block",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "shield": {
+      "display": "Shield",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "golden_helmet": {
+      "display": "Golden Helmet",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "pumpkin_seeds": {
+      "display": "Pumpkin Seeds",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_chestplate": {
+      "display": "Diamond Chestplate",
+      "imgpath": "textures/items/diamond_chestplate.png"
+    },
+    "compass": {
+      "display": "Compass",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "sugar": {
+      "display": "Sugar",
+      "imgpath": "textures/items/sugar.png"
+    },
+    "fermented_spider_eye": {
+      "display": "Fermented Spider Eye",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "flower_pot": {
+      "display": "Flower Pot",
+      "imgpath": "textures/blocks/flower_pot.png"
+    },
+    "clock": {
+      "display": "Clock",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "slime_ball": {
+      "display": "Slime Ball",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "banner": {
+      "display": "Banner",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "wooden_axe": {
+      "display": "Wooden Axe",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "flint": {
+      "display": "Flint",
+      "imgpath": "textures/items/flint.png"
+    },
+    "furnace": {
+      "display": "Furnace",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "crafting_table": {
+      "display": "Crafting Table",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "purpur_stairs": {
+      "display": "Purpur Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "coal_block": {
+      "display": "Coal Block",
+      "imgpath": "textures/blocks/coal_block.png"
+    },
+    "piston": {
+      "display": "Piston",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "sign": {
+      "display": "Sign",
+      "imgpath": "textures/items/sign.png"
+    },
+    "wooden_slab": {
+      "display": "Wooden Slab",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "iron_sword": {
+      "display": "Iron Sword",
+      "imgpath": "textures/items/iron_sword.png"
+    },
+    "writable_book": {
+      "display": "Writable Book",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "daylight_detector": {
+      "display": "Daylight Detector",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "golden_shovel": {
+      "display": "Golden Shovel",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_shovel": {
+      "display": "Diamond Shovel",
+      "imgpath": "textures/items/diamond_shovel.png"
+    },
+    "fence_gate": {
+      "display": "Fence Gate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_hoe": {
+      "display": "Diamond Hoe",
+      "imgpath": "textures/items/diamond_hoe.png"
+    },
+    "minecart": {
+      "display": "Minecart",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "observer": {
+      "display": "Observer",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "prismarine_shard": {
+      "display": "Prismarine Shard",
+      "imgpath": "textures/items/prismarine_shard.png"
+    },
+    "iron_ingot": {
+      "display": "Iron Ingot",
+      "imgpath": "textures/items/iron_ingot.png"
+    },
+    "sticky_piston": {
+      "display": "Sticky Piston",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "boat": {
+      "display": "Boat",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "nether_brick_fence": {
+      "display": "Nether Brick Fence",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "quartz": {
+      "display": "Quartz",
+      "imgpath": "textures/items/quartz.png"
+    },
+    "golden_sword": {
+      "display": "Golden Sword",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "purpur_pillar": {
+      "display": "Purpur Pillar",
+      "imgpath": "textures/blocks/purpur_pillar.png"
+    },
+    "stone_brick_stairs": {
+      "display": "Stone Brick Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "sea_lantern": {
+      "display": "Sea Lantern",
+      "imgpath": "textures/blocks/sea_lantern.png"
+    },
+    "gold_block": {
+      "display": "Gold Block",
+      "imgpath": "textures/blocks/gold_block.png"
+    },
+    "mushroom_stew": {
+      "display": "Mushroom Stew",
+      "imgpath": "textures/items/mushroom_stew.png"
+    },
+    "furnace_minecart": {
+      "display": "Furnace Minecart",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "comparator": {
+      "display": "Comparator",
+      "imgpath": "textures/items/comparator.png"
+    },
+    "paper": {
+      "display": "Paper",
+      "imgpath": "textures/items/paper.png"
+    },
+    "oak_stairs": {
+      "display": "Oak Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "diamond_axe": {
+      "display": "Diamond Axe",
+      "imgpath": "textures/items/diamond_axe.png"
+    },
+    "speckled_melon": {
+      "display": "Speckled Melon",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "clay": {
+      "display": "Clay",
+      "imgpath": "textures/blocks/clay.png"
+    },
+    "trapped_chest": {
+      "display": "Trapped Chest",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "lever": {
+      "display": "Lever",
+      "imgpath": "textures/blocks/lever.png"
+    },
+    "bookshelf": {
+      "display": "Bookshelf",
+      "imgpath": "textures/blocks/bookshelf.png"
+    },
+    "diamond_sword": {
+      "display": "Diamond Sword",
+      "imgpath": "textures/items/diamond_sword.png"
+    },
+    "iron_axe": {
+      "display": "Iron Axe",
+      "imgpath": "textures/items/iron_axe.png"
+    },
+    "enchanting_table": {
+      "display": "Enchanting Table",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "arrow": {
+      "display": "Arrow",
+      "imgpath": "textures/items/arrow.png"
+    },
+    "iron_chestplate": {
+      "display": "Iron Chestplate",
+      "imgpath": "textures/items/iron_chestplate.png"
+    },
+    "activator_rail": {
+      "display": "Activator Rail",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "glass_pane": {
+      "display": "Glass Pane",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stone_stairs": {
+      "display": "Stone Stairs",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "redstone": {
+      "display": "Redstone",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "brewing_stand": {
+      "display": "Brewing Stand",
+      "imgpath": "textures/blocks/brewing_stand.png"
+    },
+    "cobblestone": {
+      "display": "Cobblestone",
+      "imgpath": "textures/blocks/cobblestone.png"
+    },
+    "red_mushroom": {
+      "display": "Red Mushroom",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "brick_block": {
+      "display": "Brick Block",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "dye": {
+      "display": "Dye",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "detector_rail": {
+      "display": "Detector Rail",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "golden_carrot": {
+      "display": "Golden Carrot",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "stone_slab": {
+      "display": "Stone Slab",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "golden_boots": {
+      "display": "Golden Boots",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "spider_eye": {
+      "display": "Spider Eye",
+      "imgpath": "textures/items/spider_eye.png"
+    },
+    "gravel": {
+      "display": "Gravel",
+      "imgpath": "textures/blocks/gravel.png"
+    },
+    "sand": {
+      "display": "Sand",
+      "imgpath": "textures/blocks/sand.png"
+    },
+    "snowball": {
+      "display": "Snowball",
+      "imgpath": "textures/items/snowball.png"
+    },
+    "hay_block": {
+      "display": "Hay Block",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "egg": {
+      "display": "Egg",
+      "imgpath": "textures/items/egg.png"
+    },
+    "anvil": {
+      "display": "Anvil",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "wooden_pressure_plate": {
+      "display": "Wooden Pressure Plate",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "torch": {
+      "display": "Torch",
+      "imgpath": "textures/items/barrier.png"
+    },
+    "prismarine_crystals": {
+      "display": "Prismarine Crystals",
+      "imgpath": "textures/items/prismarine_crystals.png"
+    },
+    "stone": {
+      "display": "Stone",
+      "imgpath": "textures/blocks/stone.png"
+    },
+    "end_rod": {
+      "display": "End Rod",
+      "imgpath": "textures/blocks/end_rod.png"
+    },
+    "trapdoor": {
+      "display": "Trapdoor",
+      "imgpath": "textures/blocks/trapdoor.png"
+    },
+    "stone_button": {
+      "display": "Stone Button",
+      "imgpath": "textures/items/barrier.png"
+    }
+  },
+  "index": {
+    "redstone": {
+      "recipes": [
+        "dropper",
+        "golden_rail",
+        "redstone_lamp",
+        "clock",
+        "observer",
+        "redstone_block",
+        "noteblock",
+        "dispenser",
+        "compass",
+        "detector_rail",
+        "redstone_torch",
+        "piston",
+        "repeater"
+      ]
+    },
+    "cobblestone": {
+      "recipes": [
+        "dropper",
+        "stone_shovel",
+        "observer",
+        "stone_sword",
+        "dispenser",
+        "lever",
+        "stone_stairs",
+        "stone_hoe",
+        "stone_pickaxe",
+        "stone_axe",
+        "mossy_cobblestone",
+        "brewing_stand",
+        "furnace",
+        "piston"
+      ]
+    },
+    "stone": {
+      "recipes": [
+        "stone_pressure_plate",
+        "stone",
+        "comparator",
+        "stone_button",
+        "repeater"
+      ]
+    },
+    "minecart": {
+      "recipes": [
+        "furnace_minecart",
+        "hopper_minecart",
+        "tnt_minecart",
+        "chest_minecart"
+      ]
+    },
+    "furnace": {
+      "recipes": [
+        "furnace_minecart"
+      ]
+    },
+    "iron_ingot": {
+      "recipes": [
+        "bucket",
+        "cauldron",
+        "minecart",
+        "iron_nugget",
+        "iron_chestplate",
+        "shears",
+        "heavy_weighted_pressure_plate",
+        "compass",
+        "iron_boots",
+        "iron_axe",
+        "iron_bars",
+        "shield",
+        "iron_hoe",
+        "flint_and_steel",
+        "iron_sword",
+        "iron_leggings",
+        "activator_rail",
+        "iron_shovel",
+        "hopper",
+        "iron_helmet",
+        "iron_pickaxe",
+        "detector_rail",
+        "iron_trapdoor",
+        "rail",
+        "tripwire_hook",
+        "anvil",
+        "iron_block",
+        "iron_door",
+        "piston"
+      ]
+    },
+    "dye": {
+      "recipes": [
+        "lapis_block",
+        "cookie",
+        "writable_book",
+        "bone_block"
+      ]
+    },
+    "mossy_cobblestone": {
+      "recipes": [
+        "cobblestone_wall"
+      ]
+    },
+    "stick": {
+      "recipes": [
+        "stone_shovel",
+        "golden_rail",
+        "diamond_sword",
+        "stone_sword",
+        "fishing_rod",
+        "banner",
+        "wooden_sword",
+        "iron_axe",
+        "diamond_axe",
+        "diamond_hoe",
+        "lever",
+        "iron_hoe",
+        "arrow",
+        "wooden_hoe",
+        "wooden_axe",
+        "wooden_shovel",
+        "stone_hoe",
+        "wooden_pickaxe",
+        "diamond_shovel",
+        "stone_pickaxe",
+        "golden_pickaxe",
+        "stone_axe",
+        "ladder",
+        "fence",
+        "painting",
+        "golden_sword",
+        "iron_sword",
+        "activator_rail",
+        "diamond_pickaxe",
+        "sign",
+        "fence_gate",
+        "iron_shovel",
+        "bow",
+        "iron_pickaxe",
+        "torch",
+        "rail",
+        "tripwire_hook",
+        "redstone_torch",
+        "item_frame",
+        "armor_stand",
+        "golden_hoe",
+        "golden_shovel",
+        "golden_axe"
+      ]
+    },
+    "glass": {
+      "recipes": [
+        "glass_bottle",
+        "end_crystal",
+        "glass_pane",
+        "beacon",
+        "daylight_detector"
+      ]
+    },
+    "gold_ingot": {
+      "recipes": [
+        "gold_nugget",
+        "golden_rail",
+        "clock",
+        "light_weighted_pressure_plate",
+        "golden_boots",
+        "golden_leggings",
+        "gold_block",
+        "golden_pickaxe",
+        "golden_helmet",
+        "golden_sword",
+        "golden_chestplate",
+        "golden_apple",
+        "golden_hoe",
+        "golden_shovel",
+        "golden_axe"
+      ]
+    },
+    "leather": {
+      "recipes": [
+        "leather_chestplate",
+        "leather_helmet",
+        "book",
+        "leather_leggings",
+        "leather_boots",
+        "item_frame"
+      ]
+    },
+    "planks": {
+      "recipes": [
+        "wooden_button",
+        "noteblock",
+        "trapdoor",
+        "wooden_slab",
+        "wooden_door",
+        "chest",
+        "bed",
+        "wooden_sword",
+        "bookshelf",
+        "shield",
+        "stick",
+        "wooden_hoe",
+        "bowl",
+        "wooden_axe",
+        "wooden_shovel",
+        "wooden_pickaxe",
+        "jukebox",
+        "fence",
+        "oak_stairs",
+        "crafting_table",
+        "sign",
+        "fence_gate",
+        "tripwire_hook",
+        "piston",
+        "boat",
+        "wooden_pressure_plate"
+      ]
+    },
+    "carrot": {
+      "recipes": [
+        "golden_carrot",
+        "carrot_on_a_stick"
+      ]
+    },
+    "gold_nugget": {
+      "recipes": [
+        "golden_carrot",
+        "speckled_melon"
+      ]
+    },
+    "glowstone": {
+      "recipes": [
+        "redstone_lamp"
+      ]
+    },
+    "chorus_fruit_popped": {
+      "recipes": [
+        "purpur_block",
+        "end_rod"
+      ]
+    },
+    "bone": {
+      "recipes": [
+        "dye"
+      ]
+    },
+    "quartz": {
+      "recipes": [
+        "observer",
+        "stone",
+        "comparator",
+        "quartz_block",
+        "daylight_detector"
+      ]
+    },
+    "sand": {
+      "recipes": [
+        "sandstone",
+        "tnt"
+      ]
+    },
+    "hopper": {
+      "recipes": [
+        "hopper_minecart"
+      ]
+    },
+    "quartz_block": {
+      "recipes": [
+        "stone_slab",
+        "quartz_stairs"
+      ]
+    },
+    "ghast_tear": {
+      "recipes": [
+        "end_crystal"
+      ]
+    },
+    "ender_eye": {
+      "recipes": [
+        "end_crystal",
+        "ender_chest"
+      ]
+    },
+    "diamond": {
+      "recipes": [
+        "diamond_sword",
+        "diamond_chestplate",
+        "diamond_block",
+        "diamond_axe",
+        "diamond_hoe",
+        "diamond_shovel",
+        "jukebox",
+        "enchanting_table",
+        "diamond_pickaxe",
+        "diamond_boots",
+        "diamond_leggings",
+        "diamond_helmet"
+      ]
+    },
+    "dirt": {
+      "recipes": [
+        "dirt"
+      ]
+    },
+    "gravel": {
+      "recipes": [
+        "dirt"
+      ]
+    },
+    "stonebrick": {
+      "recipes": [
+        "stonebrick",
+        "stone_brick_stairs"
+      ]
+    },
+    "vine": {
+      "recipes": [
+        "stonebrick",
+        "mossy_cobblestone"
+      ]
+    },
+    "redstone_torch": {
+      "recipes": [
+        "comparator",
+        "activator_rail",
+        "repeater"
+      ]
+    },
+    "string": {
+      "recipes": [
+        "fishing_rod",
+        "lead",
+        "bow",
+        "wool"
+      ]
+    },
+    "red_mushroom": {
+      "recipes": [
+        "mushroom_stew"
+      ]
+    },
+    "brown_mushroom": {
+      "recipes": [
+        "mushroom_stew",
+        "fermented_spider_eye"
+      ]
+    },
+    "bowl": {
+      "recipes": [
+        "mushroom_stew",
+        "beetroot_soup"
+      ]
+    },
+    "wheat": {
+      "recipes": [
+        "cookie",
+        "hay_block",
+        "cake",
+        "bread"
+      ]
+    },
+    "slime_ball": {
+      "recipes": [
+        "sticky_piston",
+        "slime",
+        "lead",
+        "magma_cream"
+      ]
+    },
+    "piston": {
+      "recipes": [
+        "sticky_piston"
+      ]
+    },
+    "tripwire_hook": {
+      "recipes": [
+        "trapped_chest"
+      ]
+    },
+    "chest": {
+      "recipes": [
+        "trapped_chest",
+        "chest_minecart",
+        "hopper"
+      ]
+    },
+    "obsidian": {
+      "recipes": [
+        "ender_chest",
+        "enchanting_table",
+        "beacon"
+      ]
+    },
+    "emerald_block": {
+      "recipes": [
+        "emerald"
+      ]
+    },
+    "purpur_block": {
+      "recipes": [
+        "purpur_slab",
+        "purpur_stairs"
+      ]
+    },
+    "beetroot": {
+      "recipes": [
+        "beetroot_soup"
+      ]
+    },
+    "book": {
+      "recipes": [
+        "writable_book",
+        "bookshelf",
+        "enchanting_table"
+      ]
+    },
+    "feather": {
+      "recipes": [
+        "writable_book",
+        "arrow"
+      ]
+    },
+    "bow": {
+      "recipes": [
+        "dispenser"
+      ]
+    },
+    "pumpkin": {
+      "recipes": [
+        "pumpkin_seeds",
+        "lit_pumpkin",
+        "pumpkin_pie"
+      ]
+    },
+    "sandstone": {
+      "recipes": [
+        "sandstone_stairs"
+      ]
+    },
+    "clay_ball": {
+      "recipes": [
+        "clay"
+      ]
+    },
+    "ender_pearl": {
+      "recipes": [
+        "ender_eye"
+      ]
+    },
+    "blaze_powder": {
+      "recipes": [
+        "ender_eye",
+        "magma_cream"
+      ]
+    },
+    "iron_nugget": {
+      "recipes": [
+        "iron_ingot"
+      ]
+    },
+    "melon": {
+      "recipes": [
+        "melon_block",
+        "speckled_melon",
+        "melon_seeds"
+      ]
+    },
+    "tnt": {
+      "recipes": [
+        "tnt_minecart"
+      ]
+    },
+    "wool": {
+      "recipes": [
+        "bed",
+        "banner",
+        "painting"
+      ]
+    },
+    "blaze_rod": {
+      "recipes": [
+        "blaze_powder",
+        "end_rod",
+        "brewing_stand"
+      ]
+    },
+    "torch": {
+      "recipes": [
+        "lit_pumpkin"
+      ]
+    },
+    "gunpowder": {
+      "recipes": [
+        "tnt"
+      ]
+    },
+    "purpur_slab": {
+      "recipes": [
+        "purpur_pillar"
+      ]
+    },
+    "nether_wart": {
+      "recipes": [
+        "nether_wart_block"
+      ]
+    },
+    "paper": {
+      "recipes": [
+        "book",
+        "map"
+      ]
+    },
+    "prismarine_crystals": {
+      "recipes": [
+        "sea_lantern"
+      ]
+    },
+    "prismarine_shard": {
+      "recipes": [
+        "sea_lantern",
+        "prismarine"
+      ]
+    },
+    "brick": {
+      "recipes": [
+        "brick_block",
+        "flower_pot"
+      ]
+    },
+    "flint": {
+      "recipes": [
+        "arrow",
+        "flint_and_steel"
+      ]
+    },
+    "reeds": {
+      "recipes": [
+        "sugar",
+        "paper"
+      ]
+    },
+    "end_stone": {
+      "recipes": [
+        "end_bricks"
+      ]
+    },
+    "netherbrick": {
+      "recipes": [
+        "nether_brick"
+      ]
+    },
+    "brick_block": {
+      "recipes": [
+        "brick_stairs"
+      ]
+    },
+    "diamond_block": {
+      "recipes": [
+        "diamond"
+      ]
+    },
+    "egg": {
+      "recipes": [
+        "pumpkin_pie",
+        "cake"
+      ]
+    },
+    "sugar": {
+      "recipes": [
+        "pumpkin_pie",
+        "cake",
+        "fermented_spider_eye"
+      ]
+    },
+    "nether_brick": {
+      "recipes": [
+        "nether_brick_stairs",
+        "nether_brick_fence"
+      ]
+    },
+    "rabbit_hide": {
+      "recipes": [
+        "leather"
+      ]
+    },
+    "gold_block": {
+      "recipes": [
+        "gold_ingot"
+      ]
+    },
+    "snowball": {
+      "recipes": [
+        "snow"
+      ]
+    },
+    "milk_bucket": {
+      "recipes": [
+        "cake"
+      ]
+    },
+    "spider_eye": {
+      "recipes": [
+        "fermented_spider_eye"
+      ]
+    },
+    "nether_star": {
+      "recipes": [
+        "beacon"
+      ]
+    },
+    "magma_cream": {
+      "recipes": [
+        "magma"
+      ]
+    },
+    "emerald": {
+      "recipes": [
+        "emerald_block"
+      ]
+    },
+    "coal": {
+      "recipes": [
+        "coal_block",
+        "torch"
+      ]
+    },
+    "redstone_block": {
+      "recipes": [
+        "redstone"
+      ]
+    },
+    "fishing_rod": {
+      "recipes": [
+        "carrot_on_a_stick"
+      ]
+    },
+    "arrow": {
+      "recipes": [
+        "spectral_arrow"
+      ]
+    },
+    "glowstone_dust": {
+      "recipes": [
+        "spectral_arrow",
+        "glowstone"
+      ]
+    },
+    "stone_pressure_plate": {
+      "recipes": [
+        "detector_rail"
+      ]
+    },
+    "apple": {
+      "recipes": [
+        "golden_apple"
+      ]
+    },
+    "wooden_slab": {
+      "recipes": [
+        "daylight_detector"
+      ]
+    },
+    "snow": {
+      "recipes": [
+        "snow_layer"
+      ]
+    },
+    "log": {
+      "recipes": [
+        "planks"
+      ]
+    },
+    "coal_block": {
+      "recipes": [
+        "coal"
+      ]
+    },
+    "iron_block": {
+      "recipes": [
+        "anvil"
+      ]
+    },
+    "compass": {
+      "recipes": [
+        "map"
+      ]
+    },
+    "hay_block": {
+      "recipes": [
+        "wheat"
+      ]
+    }
+  }
+}

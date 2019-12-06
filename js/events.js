@@ -1,10 +1,12 @@
 const itemList = [[-1, -1, -1], [-1, -1, -1], [-1, -1, -1]];
 let dragItem;
 
+// eslint-disable-next-line no-unused-vars
 function allowDrop(ev) {
   ev.preventDefault();
 }
 
+// eslint-disable-next-line no-unused-vars
 function drag(ev) {
   dragItem = $(ev.target);
   const attr = dragItem.attr('row');
@@ -18,6 +20,7 @@ function drag(ev) {
   }
 }
 
+// eslint-disable-next-line no-unused-vars
 function drop(ev) {
   $('.tile').removeClass('hover');
   ev.preventDefault();
