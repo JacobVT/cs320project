@@ -119,28 +119,28 @@ class Table {
         <div class="card-img-overlay">
           <div style="height: 100%;" class="container">
             <div class="row" style="height: 100%; padding-right: 6%;">
-                                      <div class="col" style="height: 100%; width: 40%">
-                                      <div class="row" style="height: 33%;">
-                                      ${generateTile(0, 0)}
-                                      ${generateTile(0, 1)}
-                                      ${generateTile(0, 2)}
-                                      </div>
-                                      <div class="row" style="height: 33%;">
-                                      ${generateTile(1, 0)}
-                                      ${generateTile(1, 1)}
-                                      ${generateTile(1, 2)}
-                                      </div>
-                                      <div class="row" style="height: 33%;">
-                                      ${generateTile(2, 0)}
-                                      ${generateTile(2, 1)}
-                                      ${generateTile(2, 2)}
-                                      </div>
-                                      </div>
-                                      <div class="col align-self-center" style="height: 50%;">
-                                      <div class="result">
-                                      </div>
-                                      </div>
-                                      </div>
+              <div class="col" style="height: 100%; width: 40%">
+                <div class="row" style="height: 33%;">
+                  ${generateTile(0, 0)}
+                  ${generateTile(0, 1)}
+                  ${generateTile(0, 2)}
+                </div>
+                <div class="row" style="height: 33%;">
+                    ${generateTile(1, 0)}
+                    ${generateTile(1, 1)}
+                    ${generateTile(1, 2)}
+                </div>
+                <div class="row" style="height: 33%;">
+                  ${generateTile(2, 0)}
+                  ${generateTile(2, 1)}
+                  ${generateTile(2, 2)}
+                </div>
+              </div>
+              <div class="col align-self-center" style="height: 50%;">
+                <div class="result">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     `);
