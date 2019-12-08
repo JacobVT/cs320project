@@ -7,7 +7,6 @@
  */
 function getItemImage(item) {
   if (item == null) {
-    // TODO replace empty string with a blank tile icon
     return '';
   }
 
@@ -15,7 +14,7 @@ function getItemImage(item) {
 }
 
 // eslint-disable-next-line no-unused-vars
-class Table {
+class CraftingTable {
   constructor(pattern) {
     if (pattern !== undefined) {
       this.pattern = pattern;
@@ -63,56 +62,25 @@ class Table {
   }
 
   /**
-   * Remove all items from the table.
-   */
-  clear() {
-    this.pattern = [[null, null, null], [null, null, null], [null, null, null]];
-  }
-
-  /**
    * Convert table to renderable HTML.
    * @returns {HTMLElement}
    */
   toHtml() {
     // helper function to generate table tile html
-    const generateTile = (row, col) => {
-      let rowName;
-      let colName;
-
-      if (row === 0) {
-        rowName = 'top';
-      } else if (row === 1) {
-        rowName = 'mid';
-      } else {
-        rowName = 'bot';
-      }
-
-      if (col === 0) {
-        colName = 'left';
-      } else if (col === 1) {
-        colName = 'mid';
-      } else {
-        colName = 'right';
-      }
-
-      if (rowName === colName) {
-        // avoid names like 'midmid'
-        colName = '';
-      }
-
-      return `
-        <div class="col-sm tile" id="tile-${rowName}${colName}">
+    const generateTile = (row, col, tileId) => `
+        <div class="col-sm tile" id="${tileId}">
           <img style="width: 100%; height: 100%"
-               src="${getItemImage(this.getItem(row, col))}" row="${row}" col="${col}"
+               src="${getItemImage(this.getItem(row, col))}"
+               row="${row}"
+               col="${col}"
                ondrop="drop(event)"
                ondragover="allowDrop(event)"
                width="100%"
                height="100%">
         </div>`;
-    };
 
     const tableHtml = document.createElement('div');
-    $(tableHtml).className = 'card crafting_table';
+    $(tableHtml).className = 'card';
 
     $(tableHtml).append(`
       <img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table" width="60%" height="60%">
@@ -121,23 +89,23 @@ class Table {
             <div class="row" style="height: 100%; padding-right: 6%;">
               <div class="col" style="height: 100%; width: 40%">
                 <div class="row" style="height: 33%;">
-                  ${generateTile(0, 0)}
-                  ${generateTile(0, 1)}
-                  ${generateTile(0, 2)}
+                  ${generateTile(0, 0, 'tile-topleft')}
+                  ${generateTile(0, 1, 'tile-topmid')}
+                  ${generateTile(0, 2, 'tile-topright')}
                 </div>
                 <div class="row" style="height: 33%;">
-                    ${generateTile(1, 0)}
-                    ${generateTile(1, 1)}
-                    ${generateTile(1, 2)}
+                  ${generateTile(1, 0, 'tile-midleft')}
+                  ${generateTile(1, 1, 'tile-mid')}
+                  ${generateTile(1, 2, 'tile-midright')}
                 </div>
                 <div class="row" style="height: 33%;">
-                  ${generateTile(2, 0)}
-                  ${generateTile(2, 1)}
-                  ${generateTile(2, 2)}
+                  ${generateTile(2, 0, 'tile-botleft')}
+                  ${generateTile(2, 1, 'tile-botmid')}
+                  ${generateTile(2, 2, 'tile-botright')}
                 </div>
               </div>
               <div class="col align-self-center" style="height: 50%;">
-                <div class="result">
+                <div id="result">
                 </div>
               </div>
             </div>
@@ -148,8 +116,19 @@ class Table {
     return tableHtml;
   }
 
+  /**
+   * Update HTML with table's contents.
+   */
   display() {
     $('#crafting_table').html(this.toHtml());
+  }
+
+  /**
+   * Remove all items from the table.
+   */
+  clear() {
+    this.pattern = [[null, null, null], [null, null, null], [null, null, null]];
+    this.display();
   }
 
   /**

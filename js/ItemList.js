@@ -51,8 +51,3 @@ class ItemList {
     }
   }
 }
-
-const list = new ItemList();
-list.processItems('../mc_r2.json');
-const itemTable = $('#itemTableBody');
-list.generateTable(itemTable);
