@@ -28,10 +28,9 @@
 				<h3 class="minecraft">Minecraft Item Crafter</h3>
 			</div>
 
-		<div class="row">
-			<div class="col">
-				<div class="card crafting_table">
-					<img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table" width="60%" height="60%">
+		<div class="row justify-content-center">
+				<div class="card crafting_table" style="width: 674px">
+					<img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table"  width="100%" height="100%">
 					<div class="card-img-overlay">
 						<div style="height: 100%;" class="container">
 							<div class="row" style="height: 100%; padding-right: 6%;">
@@ -77,33 +76,30 @@
 								</div>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>
-
-		<div class="row">
-			<div class="col">
-				<div class="card item-list-container">
-					<div class="card-header minecraft h2 text-nowrap">
-						<span> Item List </span>
-						<input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
-					</div>
-					<div class="card-body">
-							<table class="table" id="itemTable">
-									<thead>
-									<tr>
-										<th scope="col" width="7%">Item</th>
-										<th scope="col">Name</th>
-										<th scope="col">MC ID</th>
-									</tr>
-									</thead>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="card item-list-container">
+          <div class="card-header minecraft h2 text-nowrap" style="display: flex;">
+            <span style="margin-right: 16px"> Item List </span> <input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
+          </div>
+          <div class="card-body">
+              <table class="table" id="itemTable">
+                  <thead>
+                  <tr>
+                    <th scope="col" width="7%">Item</th>
+                    <th scope="col">Name</th>
+                  </tr>
+                  </thead>
                 <tbody id="itemTableBody" class="item-list"></tbody>
-							</table>
-					</div>
-				</div>
-			</div>
-		</div>
+              </table>
+          </div>
+        </div>
+      </div>
+    </div>
 	</div>
+  <script src="../js/Item.js"></script>
   <script src="../js/ItemList.js"></script>
 </body>
