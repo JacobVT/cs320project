@@ -1,4 +1,4 @@
-/* global items, craftingTable, recipes */
+/* global items, craftingTable */
 
 let dragItem;
 let dragElement;
@@ -8,6 +8,10 @@ function allowDrop(ev) {
   ev.preventDefault();
 }
 
+/**
+ * Prepares for drop event into crafting table.
+ * @param ev
+ */
 // eslint-disable-next-line no-unused-vars
 function drag(ev) {
   dragElement = $(ev.target);
@@ -21,6 +25,10 @@ function drag(ev) {
   }
 }
 
+/**
+ * Adds dragItem into crafting table at specified row and column.
+ * @param ev
+ */
 // eslint-disable-next-line no-unused-vars
 function drop(ev) {
   $('.tile').removeClass('hover');
@@ -39,11 +47,19 @@ function drop(ev) {
   }
 }
 
+/**
+ * Clears rendered table in HTML.
+ * @param ev
+ */
 function clearTable(ev) {
   craftingTable.clear();
   craftingTable.display();
 }
 
+/**
+ * Attempts to craft an item from the given table, and renders result.
+ * @param ev
+ */
 function craft(ev) {
   let recipes;
   let i;
@@ -56,8 +72,8 @@ function craft(ev) {
       }
     }
   }
-  console.log(recipes);
 
+  console.log(recipes);
   craftingTable.tryCraft(recipes);
 }
 
