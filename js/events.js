@@ -39,6 +39,11 @@ function drop(ev) {
   }
 }
 
+function clearTable(ev) {
+  craftingTable.clear();
+  craftingTable.display();
+}
+
 function craft(ev) {
   let recipes;
   let i;
