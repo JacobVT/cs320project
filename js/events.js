@@ -46,3 +46,8 @@ $(document).on('dragover', '.tile', function () {
 $(document).on('dragleave', '.tile', function () {
   $(this).removeClass('hover');
 });
+
+$(document).on('click', '#search-button', function () {
+  const search = $('#search').val();
+  items.generateTable(search);
+});
