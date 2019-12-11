@@ -32,7 +32,7 @@ body {
   overflow: auto;
 }
 
-.crafting_table {
+#crafting_table {
 	border: 4px solid rgb(104, 104, 104);
 	border-radius: 16px;
 	padding: 4px;
@@ -51,7 +51,7 @@ body {
 	padding: 4px;
 }
 
-.result {
+#result {
 	width: 50%;
 	height:100%;
 	margin-left: 70%;

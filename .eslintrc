@@ -4,6 +4,9 @@
     "ecmaVersion": 6,
     "sourceType": "module"
   },
+  "env": {
+    "browser": true
+  },
   "rules": {
     "max-len": ["error", 120],
     "no-console": "off",
@@ -14,6 +17,8 @@
     "no-restricted-syntax": "off"
   },
   "globals": {
-    "_": true
+    "_": true,
+    "$": true,
+    "document": true
   }
 }

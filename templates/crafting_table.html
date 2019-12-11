@@ -13,7 +13,22 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="../styles/main.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../js/Item.js"></script>
+  <script src="../js/ItemList.js"></script>
+  <script src="../js/CraftingTable.js"></script>
   <script src="../js/events.js"></script>
+  <script>
+    const craftingTable = new CraftingTable();
+    const list = new ItemList();
+
+    window.onload = () => {
+      const itemTable = $('#itemTableBody');
+
+      craftingTable.display();
+      list.processItems('../mc_r2.json');
+      list.generateTable(itemTable);
+    };
+  </script>
 
 
 	<div class="container">
@@ -28,71 +43,31 @@
 				<h3 class="minecraft">Minecraft Item Crafter</h3>
 			</div>
 
-		<div class="row justify-content-center">
-				<div class="card crafting_table" style="width: 674px">
-					<img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table"  width="100%" height="100%">
-					<div class="card-img-overlay">
-						<div style="height: 100%;" class="container">
-							<div class="row" style="height: 100%; padding-right: 6%;">
-								<div class="col" style="height: 100%; width: 40%">
-									<div class="row" style="height: 33%;">
-										<div class="col-sm tile" id="tile-topleft" >
-											<img style="width: 100%; height: 100%" src="" row="0" col="0"  ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-										</div>
-										<div class="col-sm tile" id="tile-topmid" >
-											<img style="width: 100%; height: 100%" src="" row="0" col="1"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-										</div>
-										<div class="col-sm tile" id="tile-topright" >
-											<img style="width: 100%; height: 100%" src="" row="0" col="2"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-										</div>
-									</div>
-									<div class="row" style="height: 33%;">
-											<div class="col-sm tile" id="tile-midleft">
-												 <img style="width: 100%; height: 100%" src="" row="1" col="0"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-											<div class="col-sm tile" id="tile-mid">
-												 <img style="width: 100%; height: 100%" src="" row="1" col="1"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-											<div class="col-sm tile" id="tile-midright">
-												 <img style="width: 100%; height: 100%" src="" row="1" col="2"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-									</div>
-									<div class="row" style="height: 33%;">
-											<div class="col-sm tile" id="tile-botleft">
-												 <img style="width: 100%; height: 100%" src="" row="2" col="0"   ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-											<div class="col-sm tile" id="tile-botmid">
-											 	<img style="width: 100%; height: 100%" src="" row="2" col="1"  ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-											<div class="col-sm tile" id="tile-botleft">
-											 	<img style="width: 100%; height: 100%" src="" row="2" col="2"  ondrop="drop(event)" ondragover="allowDrop(event)" width="100%" height="100%">
-											</div>
-									</div>
-								</div>
-								<div class="col align-self-center" style="height: 50%;">
-									<div class="result">
-									</div>
-								</div>
-								</div>
-							</div>
-						</div>
-				</div>
-			</div>
-		</div>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="card item-list-container">
-          <div class="card-header minecraft h2 text-nowrap" style="display: flex;">
-            <span style="margin-right: 16px"> Item List </span> <input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
-          </div>
-          <div class="card-body">
-              <table class="table" id="itemTable">
-                  <thead>
-                  <tr>
-                    <th scope="col" width="7%">Item</th>
-                    <th scope="col">Name</th>
-                  </tr>
-                  </thead>
+		<div class="row">
+			<div class="col">
+				<div id="crafting_table" class="card">
+        </div>
+      </div>
+    </div>
+  </div>
+
+		<div class="row">
+			<div class="col">
+				<div class="card item-list-container">
+					<div class="card-header minecraft h2 text-nowrap">
+						<span> Item List </span>
+						<input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
+					</div>
+					<div class="card-body">
+							<table class="table" id="itemTable">
+									<thead>
+									<tr>
+										<th scope="col" width="7%">Item</th>
+										<th scope="col">Name</th>
+										<th scope="col">MC ID</th>
+									</tr>
+									</thead>
+
                 <tbody id="itemTableBody" class="item-list"></tbody>
               </table>
           </div>
@@ -100,6 +75,4 @@
       </div>
     </div>
 	</div>
-  <script src="../js/Item.js"></script>
-  <script src="../js/ItemList.js"></script>
 </body>

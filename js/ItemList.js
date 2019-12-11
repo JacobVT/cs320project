@@ -4,9 +4,10 @@ class ItemList {
   }
 
   getItem(index) {
-    if (isNaN(index) || index < 0 || index >= this.items.length) {
+    if (Number.isNaN(index) || index < 0 || index >= this.items.length) {
       return null;
     }
+
     return this.items[index];
   }
 
