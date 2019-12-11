@@ -7,7 +7,7 @@
  */
 function getItemImage(item) {
   if (item == null) {
-    return '';
+    return '../images/empty.png';
   }
 
   return item.imgpath;
@@ -137,14 +137,13 @@ class CraftingTable {
    * Attempt to craft an item with the given table layout.
    * @returns {undefined | Item}
    */
-  tryCraft() {
-    const recipes = undefined; // TODO get list of valid recipes to search
+  tryCraft(recipes) {
     const targetRecipe = recipes.find((r) => this.isRecipe(r));
 
     if (targetRecipe === undefined) {
       return undefined;
     }
 
-    return targetRecipe.yield;
+    return targetRecipe.result;
   }
 }

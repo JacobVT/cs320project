@@ -51,23 +51,36 @@ class ItemList {
     });
   }
 
-  generateTable(tableBody) {
-    for (let i = 0; i < this.items.length; i++) {
+  generateTable(itemPrefix) {
+    const filterFn = (item) => item.name.startsWith(itemPrefix || '');
+    const tableBody = $('#itemTableBody');
+
+    for (const item of this.items.filter(filterFn)) {
       tableBody.append(`
         <tr>
           <th scope="row" width="10%">
-            <img src="../${this.items[i].imgpath}" 
+            <img src="../${item.imgpath}"
                   alt=""
-                  width="48px" 
+                  width="48px"
                   height="48px"
-                  value="${this.items[i].id}" 
-                  draggable="true" 
+                  value="${item.id}"
+                  draggable="true"
                   ondragstart="drag(event)"
               >
           </th>
-          <td>${this.items[i].name}</td>
+          <td>${item.name}</td>
          </tr>
       `);
     }
+  }
+
+  filterItems(search) {
+    const filtered = [];
+    for (let i = 0; i < this.items.length; i++) {
+      if (this.items[i].name.toLowerCase().includes(search.toLowerCase())) {
+        filtered.push(this.items[i]);
+      }
+    }
+    return filtered;
   }
 }
