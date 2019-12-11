@@ -8,9 +8,11 @@ class ItemList {
 
   getItem(id) {
     // Returns a COPY of an item from the item list
-    for (let i = 0; i < this.items.length; i++) {
-      if (this.items[i].id === id) {
-        return Object.assign({}, this.items[i]);
+    if (id != null) {
+      for (let i = 0; i < this.items.length; i++) {
+        if (this.items[i].id === id) {
+          return Object.assign({}, this.items[i]);
+        }
       }
     }
     return null;
