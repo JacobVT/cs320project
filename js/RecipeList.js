@@ -7,7 +7,7 @@ class RecipeList {
 
   getRecipeForItem(itemID) {
     for (let i = 0; i < this.recipes.length; i++) {
-      if (this.recipes[i].result === itemID) {
+      if (this.recipes[i].result.id === itemID) {
         return this.recipes[i];
       }
     }
