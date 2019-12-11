@@ -66,7 +66,28 @@ class CraftingTable {
    * @returns {boolean}
    */
   isRecipe(recipe) {
-    return Pattern.equals(this.getNames(), recipe.pattern);
+    let i;
+    let j;
+    const t = [];
+    const r = [];
+    if (recipe.isStrict) {
+      return Pattern.equals(this.getNames(), recipe.pattern);
+    }
+
+    for (i = 0; i <= 2; i++) {
+      for (j = 0; i <= 2; j++) {
+        t.push(this.pattern[i][j]);
+        r.push(recipe[i][j]);
+      }
+    }
+    t.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+    r.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
+
+    return t === r;
   }
 
   /**

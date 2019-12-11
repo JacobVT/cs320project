@@ -31,9 +31,7 @@ class ItemList {
     if (item.id in itemsJSON.index) {
       const index = itemsJSON.index[item.id].recipes;
       index.forEach((key) => {
-        const { imgpath } = itemsJSON.items[key];
-        const { display } = itemsJSON.items[key];
-        const newItem = new Item(key, imgpath, display);
+        const newItem = Item.createItemFromJSON(key, itemsJSON);
         uses.push(newItem);
       });
     }
@@ -53,9 +51,7 @@ class ItemList {
     const itemKeys = Object.keys(itemsJSON.items);
 
     itemKeys.forEach((key) => {
-      const { imgpath } = itemsJSON.items[key];
-      const { display } = itemsJSON.items[key];
-      const item = new Item(key, imgpath, display);
+      const item = Item.createItemFromJSON(key, itemsJSON);
       item.uses = this.createUsesFromJSON(item, itemsJSON);
       this.items.push(item);
     });

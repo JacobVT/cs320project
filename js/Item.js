@@ -8,12 +8,13 @@ class Item {
   }
 
   /**
-   * Convert item name to an item object.
-   * @param {string} itemName
+   * Convert item id to an item object.
+   * @param {string} itemID
    * @returns {Item}
    */
-  static fromString(itemName) {
-    // TODO fully implement this (check if itemName is valid, then get corresponding id and imgpath)
-    return new Item(undefined, undefined, itemName);
+  static createItemFromJSON(itemID, itemsJSON) {
+    const { imgpath } = itemsJSON.items[itemID];
+    const { display } = itemsJSON.items[itemID];
+    return new Item(itemID, imgpath, display);
   }
 }
