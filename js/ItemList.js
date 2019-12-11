@@ -47,17 +47,20 @@ class ItemList {
       item.uses = this.createUsesFromJSON(item, itemsJSON);
       this.items.push(item);
     });
+    this.items.sort(function (a, b) {
+      return a.name.localeCompare(b.name);
+    });
   }
 
   generateTable(tableBody) {
     for (let i = 0; i < this.items.length; i++) {
       tableBody.append(`
         <tr>
-          <th scope="row" width="7%">
+          <th scope="row" width="10%">
             <img src="../${this.items[i].imgpath}" 
                   alt=""
-                  width="32px" 
-                  height="32px"
+                  width="48px" 
+                  height="48px"
                   id="dragTest1" 
                   value="${this.items[i].id}" 
                   draggable="true" 

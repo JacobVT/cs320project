@@ -17,6 +17,11 @@ body {
 	color: white;
 }
 
+.btn-lightgreen {
+  background-color: #16ff28;
+  color: white;
+}
+
 .icon {
 	padding-right: 6px;
 }
@@ -59,7 +64,7 @@ body {
 
 .item-list-container {
 	background-color: #c6c6c6;
-  max-width: 70%;
+  width: 640px;
 }
 
 .card-body {
