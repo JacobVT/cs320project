@@ -83,7 +83,7 @@ class CraftingTable {
     $(tableHtml).className = 'card';
 
     $(tableHtml).append(`
-      <img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table" width="60%" height="60%">
+      <img class="card-img" src="../images/crafting_table.jpg" alt="Crafting Table" width="100%" height="100%">
         <div class="card-img-overlay">
           <div style="height: 100%;" class="container">
             <div class="row" style="height: 100%; padding-right: 6%;">

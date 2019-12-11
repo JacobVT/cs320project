@@ -25,7 +25,7 @@
       const itemTable = $('#itemTableBody');
 
       craftingTable.display();
-      list.processItems('../mc_r2.json');
+      list.processItems('../mc_r4.json');
       list.generateTable(itemTable);
     };
   </script>
@@ -43,34 +43,28 @@
 				<h3 class="minecraft">Minecraft Item Crafter</h3>
 			</div>
 
-		<div class="row">
-			<div class="col">
-				<div id="crafting_table" class="card">
-        </div>
+		<div class="row justify-content-center">
+      <div id="crafting_table" class="card" style="width: 720px;">
+       </div>
       </div>
-    </div>
   </div>
 
-		<div class="row">
-			<div class="col">
-				<div class="card item-list-container">
-					<div class="card-header minecraft h2 text-nowrap">
-						<span> Item List </span>
-						<input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
-					</div>
-					<div class="card-body">
-							<table class="table" id="itemTable">
-									<thead>
-									<tr>
-										<th scope="col" width="7%">Item</th>
-										<th scope="col">Name</th>
-										<th scope="col">MC ID</th>
-									</tr>
-									</thead>
-
+		<div class="row justify-content-center">
+      <div class="card item-list-container">
+        <div class="card-header minecraft h2 text-nowrap" style="display: flex;">
+          <span style="margin-right: 16px;"> Item List </span>
+          <input type="text" class="form-control" id="search" placeholder="Search for an item..." style="width: 50%">
+        </div>
+        <div class="card-body">
+            <table class="table" id="itemTable">
+                <thead>
+                <tr>
+                  <th scope="col" width="7%">Item</th>
+                  <th scope="col">Name</th>
+                </tr>
+                </thead>
                 <tbody id="itemTableBody" class="item-list"></tbody>
-              </table>
-          </div>
+            </table>
         </div>
       </div>
     </div>
