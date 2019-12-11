@@ -1,5 +1,3 @@
-/* global Item */
-
 class ItemList {
   constructor() {
     this.items = [];
@@ -45,9 +43,13 @@ class ItemList {
               >
           </th>
           <td>${this.items[i].name}</td>
-          <td>${this.items[i].id}</td>
          </tr>
       `);
     }
   }
 }
+
+const list = new ItemList();
+list.processItems('../mc_r4.json')
+const itemTable = $('#itemTableBody');
+list.generateTable(itemTable);
