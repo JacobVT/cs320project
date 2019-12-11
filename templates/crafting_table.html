@@ -28,8 +28,8 @@
       const itemTable = $('#itemTableBody');
 
       craftingTable.display();
-      recipes.processRecipes('../mc_r4.json');
-      items.processItems('../mc_r4.json');
+      recipes.processRecipes(jsonFile);
+      items.processItems(jsonFile);
       items.generateTable();
     };
   </script>

@@ -31,6 +31,7 @@ class CraftingTable {
    */
   insertItem(row, col, item) {
     this.pattern[col][row] = item;
+    this.display();
   }
 
   /**
@@ -130,7 +131,6 @@ class CraftingTable {
    */
   clear() {
     this.pattern = [[null, null, null], [null, null, null], [null, null, null]];
-    this.display();
   }
 
   /**
