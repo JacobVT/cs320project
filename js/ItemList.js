@@ -52,24 +52,34 @@ class ItemList {
     });
   }
 
-  generateTable(tableBody) {
-    for (let i = 0; i < this.items.length; i++) {
+  generateTable(tableBody, displayItems) {
+    for (let i = 0; i < displayItems.length; i++) {
       tableBody.append(`
         <tr>
           <th scope="row" width="10%">
-            <img src="../${this.items[i].imgpath}" 
+            <img src="../${displayItems[i].imgpath}" 
                   alt=""
                   width="48px" 
                   height="48px"
                   id="dragTest1" 
-                  value="${this.items[i].id}" 
+                  value="${displayItems[i].id}" 
                   draggable="true" 
                   ondragstart="drag(event)"
               >
           </th>
-          <td>${this.items[i].name}</td>
+          <td>${displayItems[i].name}</td>
          </tr>
       `);
     }
+  }
+
+  filterItems(search) {
+    const filtered = [];
+    for (let i = 0; i < this.items.length; i++) {
+      if (this.items[i].name.toLowerCase().includes(search.toLowerCase())) {
+        filtered.push(this.items[i]);
+      }
+    }
+    return filtered;
   }
 }
