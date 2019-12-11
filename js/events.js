@@ -39,6 +39,11 @@ function drop(ev) {
   }
 }
 
+function craft(ev) {
+  const recipes = []; // TODO get all recipes
+  craftingTable.tryCraft(recipes);
+}
+
 $(document).on('dragover', '.tile', function () {
   $(this).addClass('hover');
 });
