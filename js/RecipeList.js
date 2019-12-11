@@ -35,7 +35,7 @@ class RecipeList {
       const { display } = itemsJSON.items[key];
       const result = new Item(key, imgpath, display);
       const pattern = this.createPattern(itemsJSON.recipes[key].ingredients, itemsJSON);
-      const recipe = new Recipe(pattern, result);
+      const recipe = new Recipe(pattern, result, itemsJSON.recipes[key].pattern);
       this.recipes.push(recipe);
     });
   }
