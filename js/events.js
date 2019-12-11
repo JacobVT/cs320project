@@ -1,5 +1,7 @@
-const itemList = [[-1, -1, -1], [-1, -1, -1], [-1, -1, -1]];
+/* global items, craftingTable, recipes */
+
 let dragItem;
+let dragElement;
 
 // eslint-disable-next-line no-unused-vars
 function allowDrop(ev) {
@@ -8,15 +10,14 @@ function allowDrop(ev) {
 
 // eslint-disable-next-line no-unused-vars
 function drag(ev) {
-  dragItem = $(ev.target);
-  const attr = dragItem.attr('row');
-
-  if (attr !== undefined) {
-    const row = dragItem.attr('row');
-    const col = dragItem.attr('col');
-
-    dragItem.attr('draggable', 'false');
-    itemList[row][col] = -1;
+  dragElement = $(ev.target);
+  if (dragElement.attr('row') !== undefined) {
+    const row = dragElement.attr('row');
+    const col = dragElement.attr('col');
+    dragItem = craftingTable.getItem(row, col);
+  } else {
+    const value = dragElement.attr('value');
+    dragItem = items.getItem(value);
   }
 }
 
@@ -24,14 +25,17 @@ function drag(ev) {
 function drop(ev) {
   $('.tile').removeClass('hover');
   ev.preventDefault();
-
-  $(ev.target).attr('value', dragItem.attr('value'));
-  $(ev.target).attr('draggable', 'true');
-  $(ev.target).attr('ondragstart', 'drag(event)');
-  $(ev.target).attr('src', dragItem.attr('src'));
-
-  if (dragItem.attr('row') !== undefined) {
-    dragItem.removeAttr('src');
+  const tile = $(ev.target);
+  const row = tile.attr('row');
+  const col = tile.attr('col');
+  if (row !== undefined) {
+    if (dragElement.attr('row') !== undefined) {
+      const oldRow = dragElement.attr('row');
+      const oldCol = dragElement.attr('col');
+      craftingTable.insertItem( oldRow, oldCol, null);
+    }
+    craftingTable.insertItem(row, col, dragItem);
+    craftingTable.display();
   }
 }
 

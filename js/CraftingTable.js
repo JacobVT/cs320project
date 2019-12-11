@@ -70,11 +70,13 @@ class CraftingTable {
     const generateTile = (row, col, tileId) => `
         <div class="col-sm tile" id="${tileId}">
           <img style="width: 100%; height: 100%"
-               src="${getItemImage(this.getItem(row, col))}"
+               src="../${getItemImage(this.getItem(row, col))}"
                row="${row}"
                col="${col}"
                ondrop="drop(event)"
                ondragover="allowDrop(event)"
+               draggable="true" 
+                ondragstart="drag(event)"
                width="100%"
                height="100%">
         </div>`;
