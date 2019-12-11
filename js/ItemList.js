@@ -1,14 +1,20 @@
+/* global Item */
+
+// eslint-disable-next-line no-unused-vars
 class ItemList {
   constructor() {
     this.items = [];
   }
 
-  getItem(index) {
-    if (Number.isNaN(index) || index < 0 || index >= this.items.length) {
+  getItem(id) {
+    this.items.forEach((item) => {
+      if (item.id === id) {
+        return item;
+      }
       return null;
-    }
+    });
 
-    return this.items[index];
+    return null;
   }
 
   processItems(jsonfile) {
