@@ -49,7 +49,14 @@ class CraftingTable {
    * @returns {string[][]}
    */
   getNames() {
-    const getName = (item) => item.name;
+    const getName = (item) => {
+      if (item == null) {
+        return null;
+      }
+
+      return item.name;
+    };
+
     return this.pattern.map((items) => items.map(getName));
   }
 
@@ -59,7 +66,7 @@ class CraftingTable {
    * @returns {boolean}
    */
   isRecipe(recipe) {
-    return Pattern.equals(this.pattern.getNames(), recipe.pattern);
+    return Pattern.equals(this.getNames(), recipe.pattern);
   }
 
   /**

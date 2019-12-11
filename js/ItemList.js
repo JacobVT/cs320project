@@ -54,7 +54,8 @@ class ItemList {
   generateTable(itemName) {
     const filterFn = (item) => {
       const lowerItem = item.name.toLowerCase();
-      return lowerItem.includes(itemName.toLowerCase());
+      const search = itemName || '';
+      return lowerItem.includes(search.toLowerCase());
     };
 
     const tableBody = $('#itemTableBody');
