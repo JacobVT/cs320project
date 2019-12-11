@@ -40,7 +40,19 @@ function drop(ev) {
 }
 
 function craft(ev) {
-  const recipes = []; // TODO get all recipes
+  let recipes;
+  let i;
+  let j;
+
+  for (i = 0; i <= 2; i++) {
+    for (j = 0; j <= 2; j++) {
+      if (craftingTable.pattern[i][j] != null) {
+        recipes = craftingTable.pattern[i][j].uses;
+      }
+    }
+  }
+  console.log(recipes);
+
   craftingTable.tryCraft(recipes);
 }
 
