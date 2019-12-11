@@ -52,22 +52,25 @@ class ItemList {
     });
   }
 
-  generateTable(tableBody, displayItems) {
-    for (let i = 0; i < displayItems.length; i++) {
+  generateTable(itemPrefix) {
+    const filterFn = (item) => item.name.startsWith(itemPrefix || '');
+    const tableBody = $('#itemTableBody');
+
+    for (const item of this.items.filter(filterFn)) {
       tableBody.append(`
         <tr>
           <th scope="row" width="10%">
-            <img src="../${displayItems[i].imgpath}" 
+            <img src="../${item.imgpath}"
                   alt=""
-                  width="48px" 
+                  width="48px"
                   height="48px"
-                  id="dragTest1" 
-                  value="${displayItems[i].id}" 
-                  draggable="true" 
+                  id="dragTest1"
+                  value="${item.id}"
+                  draggable="true"
                   ondragstart="drag(event)"
               >
           </th>
-          <td>${displayItems[i].name}</td>
+          <td>${item.name}</td>
          </tr>
       `);
     }
