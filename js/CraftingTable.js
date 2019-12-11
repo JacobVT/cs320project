@@ -7,7 +7,7 @@
  */
 function getItemImage(item) {
   if (item == null) {
-    return '../images/empty.png';
+    return 'images/empty.png';
   }
 
   return item.imgpath;
