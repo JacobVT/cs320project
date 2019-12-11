@@ -15,18 +15,22 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="../js/Item.js"></script>
   <script src="../js/ItemList.js"></script>
+  <script src="../js/Recipe.js"></script>
+  <script src="../js/RecipeList.js"></script>
   <script src="../js/CraftingTable.js"></script>
   <script src="../js/events.js"></script>
   <script>
     const craftingTable = new CraftingTable();
-    const list = new ItemList();
+    const items = new ItemList();
+    const recipes = new RecipeList();
 
     window.onload = () => {
       const itemTable = $('#itemTableBody');
 
       craftingTable.display();
-      list.processItems('../mc_r4.json');
-      list.generateTable(itemTable);
+      items.processItems('../mc_r4.json');
+      recipes.processRecipes('../mc_r4.json');
+      items.generateTable(itemTable);
     };
   </script>
 
