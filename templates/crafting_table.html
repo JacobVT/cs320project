@@ -23,14 +23,15 @@
     const craftingTable = new CraftingTable();
     const items = new ItemList();
     const recipes = new RecipeList();
+    const jsonFile = '../mc_r4.json';
 
     window.onload = () => {
       const itemTable = $('#itemTableBody');
 
       craftingTable.display();
-      items.processItems('../mc_r4.json');
-      recipes.processRecipes('../mc_r4.json');
-      items.generateTable(itemTable, items.items);
+      recipes.processRecipes(jsonFile);
+      items.processItems(jsonFile);
+      items.generateTable(itemTable);
     };
   </script>
 
