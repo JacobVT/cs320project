@@ -41,4 +41,33 @@ class Pattern {
 
     return arraysEqual(p1, p2, arraysEqual);
   }
+
+  static align(p) {
+    let i;
+    let j;
+    const newP = p;
+    while (p[0][0] === null && p[0][1] === null && p[0][2] === null) {
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          if (i === 2) {
+            newP[2][j] = null;
+          } else {
+            newP[i][j] = newP[i + 1][j];
+          }
+        }
+      }
+    }
+    while (p[0][0] === null && p[1][0] === null && p[2][0] === null) {
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          if (i === 2) {
+            newP[j][2] = null;
+          } else {
+            newP[j][i] = newP[j][i + 1];
+          }
+        }
+      }
+    }
+    return newP;
+  }
 }
