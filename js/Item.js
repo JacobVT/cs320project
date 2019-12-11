@@ -4,6 +4,7 @@ class Item {
     this.id = id;
     this.imgpath = imgpath;
     this.name = name;
+    this.uses = []; // Items that this item can be used to craft
   }
 
   /**

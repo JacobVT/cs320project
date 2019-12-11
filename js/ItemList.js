@@ -17,6 +17,21 @@ class ItemList {
     return null;
   }
 
+  // eslint-disable-next-line class-methods-use-this
+  createUsesFromJSON(item, itemsJSON) {
+    const uses = [];
+    if (item.id in itemsJSON.index) {
+      const index = itemsJSON.index[item.id].recipes;
+      index.forEach((key) => {
+        const { imgpath } = itemsJSON.items[key];
+        const { display } = itemsJSON.items[key];
+        const newItem = new Item(key, imgpath, display);
+        uses.push(newItem);
+      });
+    }
+    return uses;
+  }
+
   processItems(jsonfile) {
     const request = new XMLHttpRequest();
     request.open('GET', jsonfile, false);
@@ -29,6 +44,7 @@ class ItemList {
       const { imgpath } = itemsJSON.items[key];
       const { display } = itemsJSON.items[key];
       const item = new Item(key, imgpath, display);
+      item.uses = this.createUsesFromJSON(item, itemsJSON);
       this.items.push(item);
     });
   }
