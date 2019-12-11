@@ -52,8 +52,13 @@ class ItemList {
   }
 
   generateTable(itemPrefix) {
-    const filterFn = (item) => item.name.startsWith(itemPrefix || '');
+    const filterFn = (item) => {
+      const lowerItem = item.name.toLowerCase();
+      return lowerItem.includes(search.toLowerCase());
+    };
+
     const tableBody = $('#itemTableBody');
+    tableBody.html(''); // clear table before adding search results
 
     for (const item of this.items.filter(filterFn)) {
       tableBody.append(`
@@ -72,15 +77,5 @@ class ItemList {
          </tr>
       `);
     }
-  }
-
-  filterItems(search) {
-    const filtered = [];
-    for (let i = 0; i < this.items.length; i++) {
-      if (this.items[i].name.toLowerCase().includes(search.toLowerCase())) {
-        filtered.push(this.items[i]);
-      }
-    }
-    return filtered;
   }
 }
