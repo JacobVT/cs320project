@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* global items, craftingTable */
-=======
-/* global items, craftingTable, recipes, recipeList */
->>>>>>> incomplete-crafter
+/* global items, craftingTable, recipes */
 
 let dragItem;
 let dragElement;
@@ -44,7 +40,7 @@ function drop(ev) {
     if (dragElement.attr('row') !== undefined) {
       const oldRow = dragElement.attr('row');
       const oldCol = dragElement.attr('col');
-      craftingTable.insertItem( oldRow, oldCol, null);
+      craftingTable.insertItem(oldRow, oldCol, null);
     }
     craftingTable.insertItem(row, col, dragItem);
     craftingTable.display();
@@ -78,16 +74,11 @@ function craft(ev) {
     }
   }
 
-<<<<<<< HEAD
-  console.log(recipes);
-  craftingTable.tryCraft(recipes);
-=======
   for (i = 0; i < itemUses.length; i++) {
     recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
   }
 
   console.log(craftingTable.tryCraft(recipeUses));
->>>>>>> incomplete-crafter
 }
 
 $(document).on('dragover', '.tile', function () {
