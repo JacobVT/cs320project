@@ -74,11 +74,12 @@ function craft(ev) {
     }
   }
 
-  for (i = 0; i < itemUses.length; i++) {
-    recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
+  if (itemUses !== undefined) {
+    for (i = 0; i < itemUses.length; i++) {
+      recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
+    }
+    console.log(craftingTable.tryCraft(recipeUses));
   }
-
-  console.log(craftingTable.tryCraft(recipeUses));
 }
 
 $(document).on('dragover', '.tile', function () {
