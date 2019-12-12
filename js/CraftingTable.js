@@ -82,28 +82,38 @@ class CraftingTable {
       aligned = Pattern.align(rotated);
       for (i = 0; i <= 2; i++) {
         for (j = 0; j <= 2; j++) {
-          t.push(aligned[i][j]);
-          r.push(recipe.pattern[i][j]);
+          if (aligned[i][j] != null) {
+            t.push(aligned[i][j].id);
+          } else {
+            t.push('_');
+          }
+          if (recipe.pattern[i][j] != null) {
+            r.push(recipe.pattern[i][j].id);
+          } else {
+            r.push('_');
+          }
         }
       }
     } else {
       for (i = 0; i <= 2; i++) {
         for (j = 0; j <= 2; j++) {
           if (this.pattern[i][j] != null) {
-            t.push(this.pattern[i][j]);
+            t.push(this.pattern[i][j].id);
           }
           if (recipe.pattern[i][j] != null) {
-            r.push(recipe.pattern[i][j]);
+            r.push(recipe.pattern[i][j].id);
           }
         }
       }
       t.sort(function (a, b) {
-        return a.name.localeCompare(b.name);
+        return a.localeCompare(b);
       });
       r.sort(function (a, b) {
-        return a.name.localeCompare(b.name);
+        return a.localeCompare(b);
       });
     }
+    console.log(t.toString());
+    console.log(r.toString());
 
     return t.toString() === r.toString();
   }
