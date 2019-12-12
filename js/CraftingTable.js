@@ -70,16 +70,20 @@ class CraftingTable {
     let j;
     const t = [];
     const r = [];
-    if (recipe.isStrict) {
+    if (recipe.isStrict === 1) {
       return Pattern.equals(this.getNames(), recipe.pattern);
     }
-
     for (i = 0; i <= 2; i++) {
-      for (j = 0; i <= 2; j++) {
-        t.push(this.pattern[i][j]);
-        r.push(recipe[i][j]);
+      for (j = 0; j <= 2; j++) {
+        if (this.pattern[i][j] != null) {
+          t.push(this.pattern[i][j]);
+        }
+        if (recipe.pattern[i][j] != null) {
+          r.push(recipe.pattern[i][j]);
+        }
       }
     }
+
     t.sort(function (a, b) {
       return a.name.localeCompare(b.name);
     });
@@ -87,7 +91,7 @@ class CraftingTable {
       return a.name.localeCompare(b.name);
     });
 
-    return t === r;
+    return t.toString() === r.toString();
   }
 
   /**

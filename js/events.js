@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* global items, craftingTable */
+=======
+/* global items, craftingTable, recipes, recipeList */
+>>>>>>> incomplete-crafter
 
 let dragItem;
 let dragElement;
@@ -61,20 +65,29 @@ function clearTable(ev) {
  * @param ev
  */
 function craft(ev) {
-  let recipes;
+  let itemUses;
+  const recipeUses = [];
   let i;
   let j;
 
   for (i = 0; i <= 2; i++) {
     for (j = 0; j <= 2; j++) {
       if (craftingTable.pattern[i][j] != null) {
-        recipes = craftingTable.pattern[i][j].uses;
+        itemUses = craftingTable.pattern[i][j].uses;
       }
     }
   }
 
+<<<<<<< HEAD
   console.log(recipes);
   craftingTable.tryCraft(recipes);
+=======
+  for (i = 0; i < itemUses.length; i++) {
+    recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
+  }
+
+  console.log(craftingTable.tryCraft(recipeUses));
+>>>>>>> incomplete-crafter
 }
 
 $(document).on('dragover', '.tile', function () {

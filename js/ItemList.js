@@ -14,7 +14,7 @@ class ItemList {
   getItem(id) {
     for (let i = 0; i < this.items.length; i++) {
       if (this.items[i].id === id) {
-        return Object.assign({}, this.items[i]);
+        return this.items[i];
       }
     }
     return null;
