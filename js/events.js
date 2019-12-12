@@ -62,8 +62,6 @@ function craft(ev) {
     recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
   }
 
-  console.log(itemUses);
-  console.log(recipeUses);
   console.log(craftingTable.tryCraft(recipeUses));
 }
 
