@@ -68,28 +68,42 @@ class CraftingTable {
   isRecipe(recipe) {
     let i;
     let j;
+    const rotated = [[null, null, null], [null, null, null], [null, null, null]];
+    let aligned;
     const t = [];
     const r = [];
+
     if (recipe.isStrict === 1) {
-      return Pattern.equals(this.getNames(), recipe.pattern);
-    }
-    for (i = 0; i <= 2; i++) {
-      for (j = 0; j <= 2; j++) {
-        if (this.pattern[i][j] != null) {
-          t.push(this.pattern[i][j]);
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          rotated[i][j] = this.pattern[j][i];
         }
-        if (recipe.pattern[i][j] != null) {
+      }
+      aligned = Pattern.align(rotated);
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          t.push(aligned[i][j]);
           r.push(recipe.pattern[i][j]);
         }
       }
+    } else {
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          if (this.pattern[i][j] != null) {
+            t.push(this.pattern[i][j]);
+          }
+          if (recipe.pattern[i][j] != null) {
+            r.push(recipe.pattern[i][j]);
+          }
+        }
+      }
+      t.sort(function (a, b) {
+        return a.name.localeCompare(b.name);
+      });
+      r.sort(function (a, b) {
+        return a.name.localeCompare(b.name);
+      });
     }
-
-    t.sort(function (a, b) {
-      return a.name.localeCompare(b.name);
-    });
-    r.sort(function (a, b) {
-      return a.name.localeCompare(b.name);
-    });
 
     return t.toString() === r.toString();
   }
