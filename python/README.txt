@@ -1,0 +1,1 @@
+build_r4.py uses the recipes and textures folders from Minecraft, and generates the dataset used in our program. It is not as well optimized or organized as it could be, but this is because it is only meant to be run once to build the database. It has no active role in the operations of our system, but is included for you to see how we formed our database.
