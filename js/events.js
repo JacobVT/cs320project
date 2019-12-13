@@ -52,6 +52,7 @@ function drop(ev) {
  * Clears rendered table in HTML.
  * @param ev
  */
+// eslint-disable-next-line no-unused-vars
 function clearTable(ev) {
   craftingTable.clear();
   craftingTable.display();
@@ -61,6 +62,7 @@ function clearTable(ev) {
  * Attempts to craft an item from the given table, and renders result.
  * @param ev
  */
+// eslint-disable-next-line no-unused-vars
 function craft(ev) {
   let itemUses;
   const recipeUses = [];
