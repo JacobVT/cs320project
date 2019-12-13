@@ -8,6 +8,10 @@ function allowDrop(ev) {
   ev.preventDefault();
 }
 
+/**
+ * Prepares for drop event into crafting table.
+ * @param ev
+ */
 // eslint-disable-next-line no-unused-vars
 function drag(ev) {
   dragElement = $(ev.target);
@@ -21,6 +25,10 @@ function drag(ev) {
   }
 }
 
+/**
+ * Adds dragItem into crafting table at specified row and column.
+ * @param ev
+ */
 // eslint-disable-next-line no-unused-vars
 function drop(ev) {
   $('.tile').removeClass('hover');
@@ -32,16 +40,48 @@ function drop(ev) {
     if (dragElement.attr('row') !== undefined) {
       const oldRow = dragElement.attr('row');
       const oldCol = dragElement.attr('col');
-      craftingTable.insertItem( oldRow, oldCol, null);
+      craftingTable.insertItem(oldRow, oldCol, null);
     }
     craftingTable.insertItem(row, col, dragItem);
+    craftingTable.removeResult();
     craftingTable.display();
   }
 }
 
+/**
+ * Clears rendered table in HTML.
+ * @param ev
+ */
+function clearTable(ev) {
+  craftingTable.clear();
+  craftingTable.display();
+}
+
+/**
+ * Attempts to craft an item from the given table, and renders result.
+ * @param ev
+ */
 function craft(ev) {
-  const recipes = []; // TODO get all recipes
-  craftingTable.tryCraft(recipes);
+  let itemUses;
+  const recipeUses = [];
+  let i;
+  let j;
+
+  for (i = 0; i <= 2; i++) {
+    for (j = 0; j <= 2; j++) {
+      if (craftingTable.pattern[i][j] != null) {
+        itemUses = craftingTable.pattern[i][j].uses;
+      }
+    }
+  }
+
+  if (itemUses !== undefined) {
+    for (i = 0; i < itemUses.length; i++) {
+      recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
+    }
+    craftingTable.result = craftingTable.tryCraft(recipeUses);
+    craftingTable.display();
+  }
 }
 
 $(document).on('dragover', '.tile', function () {

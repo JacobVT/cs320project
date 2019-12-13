@@ -42,32 +42,38 @@ class Pattern {
     return arraysEqual(p1, p2, arraysEqual);
   }
 
-  static align(p) {
-    let i;
-    let j;
-    const newP = p;
-    while (p[0][0] === null && p[0][1] === null && p[0][2] === null) {
-      for (i = 0; i <= 2; i++) {
-        for (j = 0; j <= 2; j++) {
+  /**
+   * Shift elements as close to the top-left corner of pattern as possible.
+   * @param {Array<Array<*>>} pattern
+   * @return {Array<Array<*>>}
+   */
+  static align(pattern) {
+    const newPattern = pattern;
+
+    while (pattern[0][0] === null && pattern[0][1] === null && pattern[0][2] === null) {
+      for (let i = 0; i <= 2; i++) {
+        for (let j = 0; j <= 2; j++) {
           if (i === 2) {
-            newP[2][j] = null;
+            newPattern[2][j] = null;
           } else {
-            newP[i][j] = newP[i + 1][j];
+            newPattern[i][j] = newPattern[i + 1][j];
           }
         }
       }
     }
-    while (p[0][0] === null && p[1][0] === null && p[2][0] === null) {
-      for (i = 0; i <= 2; i++) {
-        for (j = 0; j <= 2; j++) {
+
+    while (pattern[0][0] === null && pattern[1][0] === null && pattern[2][0] === null) {
+      for (let i = 0; i <= 2; i++) {
+        for (let j = 0; j <= 2; j++) {
           if (i === 2) {
-            newP[j][2] = null;
+            newPattern[j][2] = null;
           } else {
-            newP[j][i] = newP[j][i + 1];
+            newPattern[j][i] = newPattern[j][i + 1];
           }
         }
       }
     }
-    return newP;
+
+    return newPattern;
   }
 }

@@ -5,6 +5,15 @@ class RecipeList {
     this.recipes = [];
   }
 
+  getRecipeForItem(itemID) {
+    for (let i = 0; i < this.recipes.length; i++) {
+      if (this.recipes[i].result.id === itemID) {
+        return this.recipes[i];
+      }
+    }
+    return null;
+  }
+
   // eslint-disable-next-line class-methods-use-this
   createPattern(array, itemsJSON) {
     const pattern = [[null, null, null], [null, null, null], [null, null, null]];

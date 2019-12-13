@@ -7,15 +7,30 @@
  */
 function getItemImage(item) {
   if (item == null) {
-    return '../images/empty.png';
+    return 'images/empty.png';
   }
 
   return item.imgpath;
 }
 
+/**
+ * Get the display name of the given item.
+ * @param {Item} item
+ * @return {string}
+ */
+function getItemName(item) {
+  if (item == null) {
+    return '';
+  }
+
+  return item.name;
+}
+
+
 // eslint-disable-next-line no-unused-vars
 class CraftingTable {
   constructor(pattern) {
+    this.result = null;
     if (pattern !== undefined) {
       this.pattern = pattern;
     } else {
@@ -49,7 +64,14 @@ class CraftingTable {
    * @returns {string[][]}
    */
   getNames() {
-    const getName = (item) => item.name;
+    const getName = (item) => {
+      if (item == null) {
+        return null;
+      }
+
+      return item.name;
+    };
+
     return this.pattern.map((items) => items.map(getName));
   }
 
@@ -59,7 +81,50 @@ class CraftingTable {
    * @returns {boolean}
    */
   isRecipe(recipe) {
-    return Pattern.equals(this.pattern.getNames(), recipe.pattern);
+    let i;
+    let j;
+    const rotated = [[null, null, null], [null, null, null], [null, null, null]];
+    const recipeIds = [[null, null, null], [null, null, null], [null, null, null]];
+    const t = [];
+    const r = [];
+
+    if (recipe.isStrict === 1) {
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          if (this.pattern[j][i] !== null) {
+            rotated[i][j] = this.pattern[j][i].id;
+          }
+          if (recipe.pattern[i][j] !== null) {
+            recipeIds[i][j] = recipe.pattern[i][j].id;
+          }
+        }
+      }
+
+      return Pattern.equals(Pattern.align(rotated), recipeIds);
+    }
+
+    if (recipe.isStrict === 0) {
+      for (i = 0; i <= 2; i++) {
+        for (j = 0; j <= 2; j++) {
+          if (this.pattern[i][j] != null) {
+            t.push(this.pattern[i][j].id);
+          }
+          if (recipe.pattern[i][j] != null) {
+            r.push(recipe.pattern[i][j].id);
+          }
+        }
+      }
+      t.sort(function (a, b) {
+        return a.localeCompare(b);
+      });
+      r.sort(function (a, b) {
+        return a.localeCompare(b);
+      });
+
+      return t.toString() === r.toString();
+    }
+
+    return false;
   }
 
   /**
@@ -81,6 +146,16 @@ class CraftingTable {
                width="100%"
                height="100%">
         </div>`;
+
+    const generateResult = (result) => `
+      <div id="result">
+        <img style="width: 100%; height: 100%"
+           src="../${getItemImage(result)}"
+           width="100%"
+           height="100%">
+       </div>
+       <div class="minecraft result-tag">${getItemName(result)}</div>
+    `;
 
     const tableHtml = document.createElement('div');
     $(tableHtml).className = 'card';
@@ -107,9 +182,8 @@ class CraftingTable {
                   ${generateTile(2, 2, 'tile-botright')}
                 </div>
               </div>
-              <div class="col align-self-center" style="height: 50%;">
-                <div id="result">
-                </div>
+              <div class="col align-self-center">
+                ${generateResult(this.result)}
               </div>
             </div>
           </div>
@@ -130,7 +204,12 @@ class CraftingTable {
    * Remove all items from the table.
    */
   clear() {
+    this.removeResult();
     this.pattern = [[null, null, null], [null, null, null], [null, null, null]];
+  }
+
+  removeResult() {
+    this.result = null;
   }
 
   /**
