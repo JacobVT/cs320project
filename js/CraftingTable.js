@@ -13,9 +13,24 @@ function getItemImage(item) {
   return item.imgpath;
 }
 
+/**
+ * Get the display name of the given item.
+ * @param {Item} item
+ * @return {string}
+ */
+function getItemName(item) {
+  if (item == null) {
+    return '';
+  }
+
+  return item.name;
+}
+
+
 // eslint-disable-next-line no-unused-vars
 class CraftingTable {
   constructor(pattern) {
+    this.result = null;
     if (pattern !== undefined) {
       this.pattern = pattern;
     } else {
@@ -132,6 +147,16 @@ class CraftingTable {
                height="100%">
         </div>`;
 
+    const generateResult = (result) => `
+      <div id="result">
+        <img style="width: 100%; height: 100%"
+           src="../${getItemImage(result)}"
+           width="100%"
+           height="100%">
+       </div>
+       <div class="minecraft result-tag">${getItemName(result)}</div>
+    `;
+
     const tableHtml = document.createElement('div');
     $(tableHtml).className = 'card';
 
@@ -157,9 +182,8 @@ class CraftingTable {
                   ${generateTile(2, 2, 'tile-botright')}
                 </div>
               </div>
-              <div class="col align-self-center" style="height: 50%;">
-                <div id="result">
-                </div>
+              <div class="col align-self-center">
+                ${generateResult(this.result)}
               </div>
             </div>
           </div>
@@ -180,7 +204,12 @@ class CraftingTable {
    * Remove all items from the table.
    */
   clear() {
+    this.removeResult();
     this.pattern = [[null, null, null], [null, null, null], [null, null, null]];
+  }
+
+  removeResult() {
+    this.result = null;
   }
 
   /**

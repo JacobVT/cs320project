@@ -43,6 +43,7 @@ function drop(ev) {
       craftingTable.insertItem(oldRow, oldCol, null);
     }
     craftingTable.insertItem(row, col, dragItem);
+    craftingTable.removeResult();
     craftingTable.display();
   }
 }
@@ -78,7 +79,8 @@ function craft(ev) {
     for (i = 0; i < itemUses.length; i++) {
       recipeUses.push(recipes.getRecipeForItem(itemUses[i].id));
     }
-    console.log(craftingTable.tryCraft(recipeUses));
+    craftingTable.result = craftingTable.tryCraft(recipeUses);
+    craftingTable.display();
   }
 }
 
