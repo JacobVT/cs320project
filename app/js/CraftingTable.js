@@ -214,7 +214,7 @@ class CraftingTable {
 
   /**
    * Attempt to craft an item with the given table layout.
-   * @returns {undefined | Item}
+   * @returns {Item | undefined}
    */
   tryCraft(recipes) {
     const targetRecipe = recipes.find((r) => this.isRecipe(r));

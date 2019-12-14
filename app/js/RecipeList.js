@@ -5,29 +5,42 @@ class RecipeList {
     this.recipes = [];
   }
 
-  getRecipeForItem(itemID) {
-    for (let i = 0; i < this.recipes.length; i++) {
-      if (this.recipes[i].result.id === itemID) {
-        return this.recipes[i];
+  /**
+   * Find the recipe needed to make the given item.
+   * @param {string} itemId - The ID of the target item.
+   * @return {Recipe | null}
+   */
+  getRecipeForItem(itemId) {
+    for (const recipe of this.recipes) {
+      if (recipe.result.id === itemId) {
+        return recipe;
       }
     }
+
     return null;
   }
 
+  /**
+   * Create a pattern from a grid of item IDs.
+   * @param {Array<Array<string>>} idGrid - A 3x3 grid of item IDs to create a pattern from.
+   * @param {Object} itemsJson - JSON containing item information.
+   * @return {Array<Array<Item>>} - The resulting pattern.
+   */
   // eslint-disable-next-line class-methods-use-this
-  createPattern(array, itemsJSON) {
+  createPattern(idGrid, itemsJson) {
     const pattern = [[null, null, null], [null, null, null], [null, null, null]];
-    for (let i = 0; i < 3; i++) {
-      for (let j = 0; j < 3; j++) {
-        const key = array[i][j];
-        if (key !== '_') {
-          const { imgpath } = itemsJSON.items[key];
-          const { display } = itemsJSON.items[key];
-          const item = new Item(key, imgpath, display);
-          pattern[i][j] = item;
-        }
+
+    idGrid.forEach((row, i) => row.forEach((id, j) => {
+      const key = idGrid[i][j];
+
+      if (key !== '_') {
+        const { imgpath } = itemsJson.items[key];
+        const { display } = itemsJson.items[key];
+        const item = new Item(key, imgpath, display);
+        pattern[i][j] = item;
       }
-    }
+    }));
+
     return pattern;
   }
 

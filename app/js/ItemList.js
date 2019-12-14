@@ -9,7 +9,7 @@ class ItemList {
   /**
    * Returns a copy of an item from the item list.
    * @param {string} id - The id of the item as represented in the JSON database.
-   * @return {null|any}
+   * @return {Item | null}
    */
   getItem(id) {
     if (id == null) {
