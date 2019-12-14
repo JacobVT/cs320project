@@ -48,28 +48,41 @@ class Pattern {
    * @return {Array<Array<*>>}
    */
   static align(pattern) {
-    const newPattern = pattern;
+    const arrayIsEmpty = (ary) => ary.every((elem) => elem == null);
 
-    while (pattern[0][0] === null && pattern[0][1] === null && pattern[0][2] === null) {
-      for (let i = 0; i <= 2; i++) {
-        for (let j = 0; j <= 2; j++) {
-          if (i === 2) {
-            newPattern[2][j] = null;
-          } else {
-            newPattern[i][j] = newPattern[i + 1][j];
-          }
+    if (pattern.every(arrayIsEmpty)) {
+      // avoid infinite loops if pattern is empty
+      return pattern;
+    }
+
+    // copy pattern instead of manipulating the old one
+    const newPattern = pattern.map((row) => row.slice(0));
+
+    // shift rows up until the top contains a non-null value.
+    while (arrayIsEmpty(newPattern[0])) {
+      for (let i = 0; i < newPattern.length; i++) {
+        let newRow = [null, null, null];
+
+        if (i < 2) {
+          newRow = newPattern[i + 1];
         }
+
+        newPattern[i] = newRow;
       }
     }
 
-    while (pattern[0][0] === null && pattern[1][0] === null && pattern[2][0] === null) {
+    // shift columns left until the left contains a non-null value.
+    // essentially same logic as the above while loop, but less concise due to columns not being arrays.
+    while (newPattern[0][0] === null && newPattern[1][0] === null && newPattern[2][0] === null) {
       for (let i = 0; i <= 2; i++) {
         for (let j = 0; j <= 2; j++) {
-          if (i === 2) {
-            newPattern[j][2] = null;
-          } else {
-            newPattern[j][i] = newPattern[j][i + 1];
+          let newValue = null;
+
+          if (i < 2) {
+            newValue = newPattern[j][i + 1];
           }
+
+          newPattern[j][i] = newValue;
         }
       }
     }
