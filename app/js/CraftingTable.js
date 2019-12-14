@@ -81,50 +81,45 @@ class CraftingTable {
    * @returns {boolean}
    */
   isRecipe(recipe) {
-    let i;
-    let j;
-    const rotated = [[null, null, null], [null, null, null], [null, null, null]];
+    const tableIds = [[null, null, null], [null, null, null], [null, null, null]];
     const recipeIds = [[null, null, null], [null, null, null], [null, null, null]];
-    const t = [];
-    const r = [];
 
-    if (recipe.isStrict === 1) {
-      for (i = 0; i <= 2; i++) {
-        for (j = 0; j <= 2; j++) {
+    if (recipe.isStrict) {
+      for (let i = 0; i <= 2; i++) {
+        for (let j = 0; j <= 2; j++) {
           if (this.pattern[j][i] !== null) {
-            rotated[i][j] = this.pattern[j][i].id;
+            tableIds[i][j] = this.pattern[j][i].id;
           }
+
           if (recipe.pattern[i][j] !== null) {
             recipeIds[i][j] = recipe.pattern[i][j].id;
           }
         }
       }
 
-      return Pattern.equals(Pattern.align(rotated), recipeIds);
-    }
+      return Pattern.equals(Pattern.align(tableIds), recipeIds);
+    } else {
+      const t = [];
+      const r = [];
 
-    if (recipe.isStrict === 0) {
-      for (i = 0; i <= 2; i++) {
-        for (j = 0; j <= 2; j++) {
+      for (let i = 0; i <= 2; i++) {
+        for (let j = 0; j <= 2; j++) {
           if (this.pattern[i][j] != null) {
             t.push(this.pattern[i][j].id);
           }
+
           if (recipe.pattern[i][j] != null) {
             r.push(recipe.pattern[i][j].id);
           }
         }
       }
-      t.sort(function (a, b) {
-        return a.localeCompare(b);
-      });
-      r.sort(function (a, b) {
-        return a.localeCompare(b);
-      });
+
+      const compare = (a, b) => a.localeCompare(b);
+      t.sort(compare);
+      r.sort(compare);
 
       return t.toString() === r.toString();
     }
-
-    return false;
   }
 
   /**
