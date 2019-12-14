@@ -12,51 +12,58 @@ class ItemList {
    * @return {null|any}
    */
   getItem(id) {
-    if (id != null) {
-      for (let i = 0; i < this.items.length; i++) {
-        if (this.items[i].id === id) {
-          return this.items[i];
-        }
+    if (id == null) {
+      return null;
+    }
+
+    for (const item of this.items) {
+      if (item.id === id) {
+        return item;
       }
     }
+
     return null;
   }
 
   /**
    * @param {Item} item - Item to get uses of.
-   * @param {Object} itemsJSON - JSON file containing item information.
-   * @return {Array<Item>}
+   * @param {Object} itemsJson - JSON containing item information.
+   * @return {Array<Item>} - Items that are craftable with given item.
    */
-  // eslint-disable-next-line class-methods-use-this
-  createUsesFromJSON(item, itemsJSON) {
+  createUsesFromJSON(item, itemsJson) {
     const uses = [];
-    if (item.id in itemsJSON.index) {
-      const index = itemsJSON.index[item.id].recipes;
-      index.forEach((key) => {
-        const newItem = Item.createItemFromJSON(key, itemsJSON);
-        uses.push(newItem);
-      });
+    const jsonItem = itemsJson.index[item.id];
+
+    if (jsonItem === undefined) {
+      return [];
     }
+
+    for (const key of jsonItem.recipes) {
+      const newItem = Item.createItemFromJSON(key, itemsJson);
+      uses.push(newItem);
+    }
+
     return uses;
   }
 
   /**
    * Initialize items through the given JSON file.
-   * @param {string} jsonfile
+   * @param {string} jsonFile - Path to JSON database
    */
-  processItems(jsonfile) {
+  processItems(jsonFile) {
     const request = new XMLHttpRequest();
-    request.open('GET', jsonfile, false);
+    request.open('GET', jsonFile, false);
     request.send(null);
 
     const itemsJSON = JSON.parse(request.responseText);
     const itemKeys = Object.keys(itemsJSON.items);
 
-    itemKeys.forEach((key) => {
+    for (const key of itemKeys) {
       const item = Item.createItemFromJSON(key, itemsJSON);
       item.uses = this.createUsesFromJSON(item, itemsJSON);
       this.items.push(item);
-    });
+    }
+
     this.items.sort(function (a, b) {
       return a.name.localeCompare(b.name);
     });
@@ -68,7 +75,7 @@ class ItemList {
    *                            will be rendered.
    */
   generateTable(itemName) {
-    const filterFn = (item) => {
+    const predicate = (item) => {
       const lowerItem = item.name.toLowerCase();
       const search = itemName || '';
       return lowerItem.includes(search.toLowerCase());
@@ -77,7 +84,7 @@ class ItemList {
     const tableBody = $('#itemTableBody');
     tableBody.html(''); // clear table before adding search results
 
-    for (const item of this.items.filter(filterFn)) {
+    for (const item of this.items.filter(predicate)) {
       tableBody.append(`
         <tr>
           <th scope="row" width="10%">
